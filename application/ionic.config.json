@@ -1,5 +1,7 @@
 {
   "name": "Speel op veilig",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }
