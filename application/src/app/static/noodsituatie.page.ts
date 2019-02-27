@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { CallNumber } from '@ionic-native/call-number/ngx';
+
 
 @Component({
   selector: 'app-noodsituatie',
@@ -7,8 +9,20 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NoodsituatiePage implements OnInit {
 
-  constructor() { }
+  constructor(private callNumber: CallNumber) { }
 
+  bellNoodnummer(){
+      this.callNumber.callNumber("+32474261401", true)
+        .then(res => console.log('Launched dialer!', res))
+        .catch(err => console.log('Error launching dialer', err));
+  }
+      voegNoodnummerToeAanContacten(){
+        // to do 
+      }
+    voeginternationaalNoodnummerToeAanContacten(){
+        // to do 
+    }
+    
   ngOnInit() {
   }
 
