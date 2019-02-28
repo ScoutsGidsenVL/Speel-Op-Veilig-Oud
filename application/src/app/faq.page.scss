@@ -1,0 +1,12 @@
+:root { 
+    .card-content-ios{
+         h1 {
+            font-family: var(--font-titel);
+            letter-spacing: 1px;
+            color: var(--ion-color-danger);
+            font-size: 1.4rem;
+            font-weight: normal;
+            text-transform: uppercase;
+        }
+    }
+}

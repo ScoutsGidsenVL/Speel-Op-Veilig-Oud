@@ -11,15 +11,25 @@
         <ion-select multiple="true" cancelText="Annuleer" okText="Filter" (ionChange)="filterTakken($event)">
             <ion-select-option value="kapoenen-zeehondjes">Kapoenen en Zeehondjes</ion-select-option>
             <ion-select-option value="kabouters-welpen">Kabouters en (Zee)Welpen</ion-select-option>
-            <ion-select-option value="jonggidsen-verkenners">Jonggidsen en Jongverkenners</ion-select-option>
+            <ion-select-option value="jonggidsen-verkenners-scheepsmakkers">Jonggidsen en Jongverkenners</ion-select-option>
             <ion-select-option value="gidsen-verkenners">Gidsen en Verkenners</ion-select-option>
             <ion-select-option value="jins-loodsen">Jin en Loodsen</ion-select-option>
             <ion-select-option value="leiding">Leiding</ion-select-option>
         </ion-select>
     </ion-item>
-
-    <h2>Thema</h2>
-    <h3>Vraag</h3>
-    <h3>Vraag</h3>
-
+    <ion-card *ngFor="let thema of vragen">
+            <ion-card-header>
+                <ion-card-title>{{ thema.titel }}</ion-card-title>
+            </ion-card-header>
+            <ion-card-content *ngFor="let vraag of thema.inhoud">
+                <h1>{{ vraag.vraag }}</h1>
+                <div *ngFor="let antwoord of vraag.antwoorden" >
+                    <p *ngIf="isVoorTak(antwoord)">
+                        {{ antwoord.tak }}<br>
+                        <i>{{ antwoord.antwoord }}</i> 
+                    </p>
+                                          
+                </div>
+            </ion-card-content>
+        </ion-card>
 </ion-content>

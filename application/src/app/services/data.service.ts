@@ -55,7 +55,54 @@ export class DataService {
                             "Vermijd bij bliksem vlaktes en alles dat boven de omgeving uitsteekt (torens, masten, bomen, hoogtes, tenten). Ga zo snel mogelijk uit het water. Schuil in gebouwen of auto’s. Niet mogelijk? Ga gehurkt zitten en maak je zo klein mogelijk. "
                         ]
                 }
-                ]
+                    ],
+                    "vragen": {
+                        "titel": "Vragen en antwoorden per tak over vuur",
+                        "inhoud": [
+                            {
+                                "vraag": "Mogen leden vuur maken?",
+                                "antwoorden": [
+                                    {
+                                       "tak": "kapoenen-zeehondjes",
+                                        "antwoord": "Neen"
+                                    },{
+                                       "tak": "kabouters-welpen",
+                                        "antwoord": "Neen"
+                                    },{
+                                       "tak": "jonggidsen-verkenners-scheepsmakkers",
+                                        "antwoord": "Ja, de leiding zorgt ervoor dat het in gecontroleerde omstandigheden gebeurt."
+                                    },{
+                                       "tak": "gidsen-verkenners",
+                                        "antwoord": "Ja, de leiding zorgt ervoor dat het in gecontroleerde omstandigheden gebeurt."
+                                    },{
+                                       "tak": "jins-loodsen",
+                                        "antwoord": "Ja"
+                                    }
+                                ]
+                            },
+                            {
+                                "vraag": "Mogen leden op vuur koken?",
+                                "antwoorden": [
+                                    {
+                                       "tak": "kapoenen-zeehondjes",
+                                        "antwoord": "Neen"
+                                    },{
+                                       "tak": "kabouters-welpen",
+                                        "antwoord": "Neen. Kabouters en welpen mogen begeleid door leiding wel een woudloperskeuken doen."
+                                    },{
+                                       "tak": "jonggidsen-verkenners-scheepsmakkers",
+                                        "antwoord": "Ja, maar begeleid door leiding of foeriers."
+                                    },{
+                                       "tak": "gidsen-verkenners",
+                                        "antwoord": "Ja"
+                                    },{
+                                       "tak": "jins-loodsen",
+                                        "antwoord": "Ja"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
             }
             ],
             "meerInfo": {
@@ -262,7 +309,9 @@ export class DataService {
                     }
                 ]
             }
-        },
+
+
+    },
         {
             "titel": "Hoogte",
             "url": "hoogte",
@@ -412,7 +461,12 @@ export class DataService {
         {
             "titel": "Verkeer",
             "url": "verkeer",
-
+            "subthemas": [
+                {
+                   "titel": "",
+                    "inhoud": []
+                }
+            ],
 
             "meerInfo": {
                 "titel": "Meer weten over verkeer?",
@@ -451,8 +505,12 @@ export class DataService {
         {
             "titel": "Drugs, tabak en alcohol",
             "url": "drugs-tabak-en-alcohol",
-
-
+            "subthemas": [
+                {
+                   "titel": "",
+                    "inhoud": []
+                }
+            ],
             "meerInfo": {
                 "titel": "Meer weten over tabak, alcohol en drugs?",
                 "lijst": [{
@@ -639,7 +697,7 @@ export class DataService {
                 ]
             }
     }
-    ];
+];
   }
   
   haalThemasOp() {
@@ -648,5 +706,19 @@ export class DataService {
   haalThemaOpMetTitel(titel){
       let thema;
       return this.themas.find(t => t.url == titel);
+  }
+  haalAlleVragenOp(){
+      let vragen = new Array();
+      
+      let someArray = [1, "string", false];
+        for (let thema of this.themas) {
+            for (let subThema of thema.subthemas) {
+                if (subThema.vragen != undefined) {
+                    vragen.push(subThema.vragen);
+                }
+                
+            }
+        }
+      return vragen;
   }
 }
