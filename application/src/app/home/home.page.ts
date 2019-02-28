@@ -6,26 +6,55 @@ import { Component } from '@angular/core';
   styleUrls: ['home.page.scss'],
 })
 export class HomePage {
-    public appPages = [
+    public staticPages = [
         {
           title: 'Crisis en noodsituaties',
           url: '/crisis-en-noodsituaties',
-          icon: 'home'
         },
         {
           title: 'Wegwijs',
           url: '/wegwijs',
-          icon: 'list'
         },
         {
           title: 'Veilige activiteit',
           url: '/veilige-activiteit',
-          icon: 'list'
         },
         {
           title: 'Verzekeringen en aansprakelijkheid',
           url: '/verzekeringen-en-aansprakelijkheid',
-          icon: 'list'
         }
       ];
+
+    public themas = [
+        {
+            title: 'Vuur',
+            url: '/themas/vuur',
+        },
+        {
+            title: 'Water',
+            url: '/themas/water',
+        },
+        {
+            title: 'Hoogte',
+            url: '/themas/hoogte',
+        },
+        {
+            title: 'Materiaal',
+            url: '/themas/materiaal',
+        },
+        {
+            title: 'Verkeer',
+            url: '/themas/verkeer',
+        },
+        {
+            title: 'Drugs, tabak en alcohol',
+            url: '/themas/drugs-tabak-en-alcohol',
+        },
+        {
+            title: 'Welzijn',
+            url: '/themas/welzijn',
+        },
+        
+        
+    ]
 }
