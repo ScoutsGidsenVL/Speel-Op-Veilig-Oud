@@ -1,7 +1,7 @@
 <ion-header>
     <ion-toolbar>
         <ion-title>
-            Ionic Blank
+            Speel op veilig 
         </ion-title>
     </ion-toolbar>
 </ion-header>
@@ -12,10 +12,12 @@
             <ion-label>Thema's</ion-label>
         </ion-list-header>
         <ion-item *ngFor="let t of themas">
-            <ion-label>
-                {{ t.title }}
+            <ion-label [routerDirection]="'root'" [routerLink]="['/thema/', t.url]">
+                {{ t.titel }}
             </ion-label>
         </ion-item>
+    </ion-list>
+    <ion-list>
         <ion-list-header>
             <ion-label>Bijkomende info</ion-label>
         </ion-list-header>

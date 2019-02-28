@@ -1,0 +1,26 @@
+<ion-header>
+    <ion-toolbar>
+        <ion-buttons slot="start">
+            <ion-back-button defaultHref="home"></ion-back-button>
+        </ion-buttons>
+        <ion-title>{{ thema.titel }}</ion-title>
+    </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+    <div *ngFor="let st of thema.subthemas">
+        <div>{{ st.titel }}</div>
+        <ion-card *ngFor="let od of st.inhoud">
+            <ion-card-header>
+                <ion-card-title>{{ od.titel}}</ion-card-title>
+            </ion-card-header>
+            <ion-card-content>
+                <p [innerHTML]="od.tekst"></p>
+                <ul>
+                    <li *ngFor="let regel of od.lijst">{{ regel }}</li>
+                </ul>
+            </ion-card-content>
+        </ion-card>
+        
+    </div>
+</ion-content>

@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { DataService } from '../services/data.service'
 
 @Component({
   selector: 'app-home',
@@ -6,6 +7,7 @@ import { Component } from '@angular/core';
   styleUrls: ['home.page.scss'],
 })
 export class HomePage {
+    
     public staticPages = [
         {
           title: 'Crisis en noodsituaties',
@@ -25,36 +27,14 @@ export class HomePage {
         }
       ];
 
-    public themas = [
-        {
-            title: 'Vuur',
-            url: '/themas/vuur',
-        },
-        {
-            title: 'Water',
-            url: '/themas/water',
-        },
-        {
-            title: 'Hoogte',
-            url: '/themas/hoogte',
-        },
-        {
-            title: 'Materiaal',
-            url: '/themas/materiaal',
-        },
-        {
-            title: 'Verkeer',
-            url: '/themas/verkeer',
-        },
-        {
-            title: 'Drugs, tabak en alcohol',
-            url: '/themas/drugs-tabak-en-alcohol',
-        },
-        {
-            title: 'Welzijn',
-            url: '/themas/welzijn',
-        },
-        
-        
-    ]
+    public themas;    
+    
+    constructor(private dataService: DataService) { }
+
+    
+    
+    
+    ngOnInit() {
+        this.themas = this.dataService.haalThemasOp();
+    }
 }

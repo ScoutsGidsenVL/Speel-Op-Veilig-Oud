@@ -1,0 +1,12 @@
+ion-content {
+    --background:none;
+    background-image: url("/assets/images/algemeen.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    p {
+        font-family: var(--font-titel);
+        letter-spacing: 1px;
+        font-size: 1.5rem;  
+        color: var(--ion-color-light);
+    }
+}
