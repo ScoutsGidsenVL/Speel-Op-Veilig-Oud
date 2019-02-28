@@ -21,6 +21,24 @@
                 </ul>
             </ion-card-content>
         </ion-card>
-        
     </div>
+    <ion-card>
+            <ion-card-header>
+                <ion-card-title>{{ thema.meerInfo.titel }}</ion-card-title>
+            </ion-card-header>
+            <ion-card-content>
+                <ul>
+                    <li *ngFor="let lijstitem of thema.meerInfo.lijst">
+                        <ul>{{ lijstitem.titel }}
+                            <li *ngFor="let link of lijstitem.links">
+                                <a href="link.url">{{ link.titel }}</a>
+                                {{ link.beschrijving }}
+                            </li>
+                        </ul>
+                    
+                    </li>
+                </ul>
+            </ion-card-content>
+        </ion-card>
+    
 </ion-content>
