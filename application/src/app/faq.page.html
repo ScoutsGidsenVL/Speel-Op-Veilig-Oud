@@ -1,0 +1,25 @@
+<ion-header>
+    <ion-toolbar>
+        <ion-title>Vraag en Antwoord</ion-title>
+    </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+    Filter op zaken voor:
+    <ion-item>
+        <ion-label>Takken</ion-label>
+        <ion-select multiple="true" cancelText="Annuleer" okText="Filter" (ionChange)="filterTakken($event)">
+            <ion-select-option value="kapoenen-zeehondjes">Kapoenen en Zeehondjes</ion-select-option>
+            <ion-select-option value="kabouters-welpen">Kabouters en (Zee)Welpen</ion-select-option>
+            <ion-select-option value="jonggidsen-verkenners">Jonggidsen en Jongverkenners</ion-select-option>
+            <ion-select-option value="gidsen-verkenners">Gidsen en Verkenners</ion-select-option>
+            <ion-select-option value="jins-loodsen">Jin en Loodsen</ion-select-option>
+            <ion-select-option value="leiding">Leiding</ion-select-option>
+        </ion-select>
+    </ion-item>
+
+    <h2>Thema</h2>
+    <h3>Vraag</h3>
+    <h3>Vraag</h3>
+
+</ion-content>

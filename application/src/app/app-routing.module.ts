@@ -10,6 +10,7 @@ const routes: Routes = [
   { path: 'verzekeringen-en-aansprakelijkheid', loadChildren: './static/verzekeringen.module#VerzekeringenPageModule' },
   { path: 'thema/:titel', loadChildren: './thema.module#ThemaPageModule' },
   { path: 'intro', loadChildren: './intro.module#IntroPageModule' },
+  { path: 'vragen-en-antwoorden', loadChildren: './faq.module#FaqPageModule' },
 ];
 
 @NgModule({

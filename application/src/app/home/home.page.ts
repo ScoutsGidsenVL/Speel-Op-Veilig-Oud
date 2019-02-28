@@ -24,6 +24,10 @@ export class HomePage {
         {
           title: 'Verzekeringen en aansprakelijkheid',
           url: '/verzekeringen-en-aansprakelijkheid',
+        },
+        {
+          title: 'Vragen en Antwoorden',
+          url: '/vragen-en-antwoorden',
         }
       ];
 
