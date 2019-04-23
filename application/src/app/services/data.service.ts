@@ -16,10 +16,12 @@ export class DataService {
                     "titel": "",
                     "inhoud": [{
                             "titel": "Wet over vuur",
+                            "type": "wet",
                             "tekst": "In Vlaanderen en Wallonië mag je een kampvuur maken als je 25 meter afstand houdt van bossen en wouden en 100 meter van huizen, heiden, boomgaarden, …. Elke gemeente kan nog extra regels opleggen in het politiereglement. De wetgeving kan ook veranderen door het weer (bv. code rood). <br><br>In Vlaanderen moet je afspraken maken met de eigenaar van de kampgrond. In Wallonië heb je toestemming nodig van de boseigenaar.<br><br>Wie een brand veroorzaakt door onvoldoende voorzorgsmaatregelen te nemen, pleegt een strafbaar feit. Het gebruik van brandversnellers is bijvoorbeeld strafbaar. Je mag ook geen vuur maken op of naast de openbare weg. De rook kan het verkeer hinderen of onveilig maken door het zicht te belemmeren. <br><br>Afval verbranden in open lucht is verboden. Je mag enkel stoken met droog, onbewerkt hout."
                 },
                         {
                             "titel": "Regels Scouts en Gidsen Vlaanderen over vuur",
+                            "type": "regel",
                             "lijst": [
                             "Kapoenen, zeehondjes, kabouters en (zee)welpen mogen enkel bij een kampvuur zitten onder toezicht.",
                             "Jonggidsen, jongverkenners, scheepsmakkers, gidsen (zee)verkenners, jins en loodsen mogen zelf vuur maken. De leiding zorgt mee voor veilige omstandigheden.",
@@ -30,6 +32,7 @@ export class DataService {
                 },
                         {
                             "titel": "Richtlijnen Scouts en Gidsen Vlaanderen over vuur",
+                            "type": "richtlijn",
                             "lijst": [
                             "Maak een vaste kampvuurplaats.",
                             "Hou het vuur beperkt. Blus en/of evacueer bij het minste vermoeden van brand.",
@@ -44,6 +47,7 @@ export class DataService {
                 },
                         {
                             "titel": "Suggesties over vuur",
+                            "type": "suggestie",
                             "lijst": [
                             "Maak geen vuur op rotsachtige grond. ",
                             "Maak duidelijke afspraken over wie kookt en stookt. Waar staat het water? Waar ligt het blusdeken?",
@@ -103,6 +107,7 @@ export class DataService {
                             }
                         ]
                     }
+                    
             }
             ],
             "meerInfo": {
@@ -198,10 +203,12 @@ export class DataService {
                     "inhoud": [
                         {
                             "titel": "Wet over water",
+                            "type": "wet",
                             "tekst": "In Vlaanderen is het verboden om te zwemmen in bevaarbare waterwegen. Zwemmen in beken en sloten wordt ten zeerste afgeraden omdat de veiligheid niet gegarandeerd kan worden. <br><br>In Vlaanderen mag je met een zelfgebouwd vlot varen op de 'onbevaarbare waterlopen': beekjes en riviertjes waarop geen scheepvaart mogelijk is.<br><br>In Wallonië mag je enkel zwemmen en varen met een vlot in aangewezen badzones."
-                },
+                        },
                         {
                             "titel": "Regels Scouts en Gidsen Vlaanderen over water",
+                            "type":"regel",
                             "lijst": [
                             "Zwem enkel in erkende zwemwateren en aangewezen badzones. Je herkent ze in Vlaanderen aan dit symbool:",
                             "Ken de zwemcapaciteit van elk van je leden.",
@@ -211,6 +218,7 @@ export class DataService {
                 },
                         {
                             "titel": "Richtlijnen Scouts en Gidsen Vlaanderen over water",
+                            "type": "richtlijn",
                             "lijst": [
                             "Spring nooit zomaar in onbekend water.",
                             "Tel de leden regelmatig.",
@@ -319,11 +327,12 @@ export class DataService {
                 {
                     "titel": "",
                     "inhoud": [{
-
+                            "type": "wet",
                             "titel": "Wet over hoogte",
                             "tekst": "Er is geen specifieke wetgeving over hoogte die van toepassing is op jeugdbewegingen. Hier geldt dus het principe van de goede huisvader en organisatieplicht. Daarover vind je meer op pagina X. "
                     }, {
                             "titel": "Regels Scouts en Gidsen Vlaanderen over hoogte",
+                            "type": "regel",
                             "lijst": [
                             "Beveilig bij elke hoogteactiviteit (ook bijvoorbeeld een toren sjorren) elke individuele deelnemer met het nodige degelijk materiaal zoals klimtouw en helm.",
                             "Begeleid activiteiten in de hoogte altijd met minstens twee leid(st)ers. ",
@@ -333,6 +342,7 @@ export class DataService {
                         ]
                     }, {
                             "titel": "Richtlijnen Scouts en Gidsen Vlaanderen over vuur",
+                            "type": "richtlijn",
                             "lijst": [
                             "Neem elk signaal van hoogtevrees ernstig. ",
                             "Hou altijd toezicht op spontaan klimwerk, bijvoorbeeld in bomen. Zoek samen een gezonde klimboom en maak goede afspraken.",
@@ -342,6 +352,7 @@ export class DataService {
 
                     }, {
                             "titel": "Suggesties over hoogte",
+                            "type": "suggestie",
                             "lijst": [
                             "Gooi nooit materiaal omhoog of vanuit een constructie naar omlaag.",
                             "Span touwen met katrollen of spanband nooit op met behulp van voertuigen of mechanische lieren (tirefort)."
@@ -402,15 +413,18 @@ export class DataService {
                     "titel": "",
                     "inhoud": [{
                         "titel": "Wet over materiaal",
+                        "type": "wet",
                         "tekst": "De meeste materialen moeten aan wettelijke normen voldoen, waarmee moet de fabrikant rekening houden. Als goede huisvader ben je verplicht om het materiaal goed te onderhouden en om er voor te zorgen dat iedereen weet hoe hij of zij het moet gebruiken. <br><br>Volg altijd de veiligheidsvoorschriften en zorg dat je leden dat ook doen. Zo vermijd je ongevallen. <br><br>Voor speeltuigen, trampolines, schommels, klimrekken, springkastelen, kabelbanen of glijbanen bestaan strenge veiligheidsnormen. Zowel als ze vast als tijdelijk op je terrein staan."
                     }, {
                         "titel": "Regels Scouts en Gidsen Vlaanderen over materiaal",
+                        "type": "regel",
                         "lijst": [
                             "Vanaf jonggidsen/jongverkenners/scheepsmakkers mogen leden bijlen, zakmessen en zagen gebruiken. Bij jonggidsen/jongverkenners/scheepsmakkers gebeurt dat altijd begeleid door leiding.",
                             "Leden mogen enkel helpen bij verfraaiing en onderhoud aan het lokaal. Niet bij verbouwingen."
                         ]
                     }, {
                         "titel": "Richtlijnen Scouts en Gidsen Vlaanderen over materiaal",
+                        "type": "richtlijn",
                         "lijst": [
                             "Gebruik enkel kwalitatief materiaal dat je kan kopen bij gespecialiseerde handelaars.",
                             "Controleer de gasleidingen van bekkens altijd op defecten of slechte aansluitingen. Gebruik daarvoor nooit een lucifer of aansteker.",
@@ -421,6 +435,7 @@ export class DataService {
 
                     }, {
                         "titel": "Suggesties over materiaal",
+                        "type": "suggestie",
                         "lijst": [
                         "Zagen is sneller en veiliger dan hakken.",
                         "Zorg dat stelen van bijlen, zagen en messen stevig en veerkrachtig zijn en niet loszitten. ",
@@ -430,7 +445,54 @@ export class DataService {
                         "Zet je tent niet onder bomen.",
                         "Maak spantouwen en piketten zichtbaar."
                     ]
-                    }]
+                    }],
+                    "vragen": {
+                        "titel": "Vragen en antwoorden per tak over materiaal",
+                        "inhoud": [
+                            {
+                                "vraag": "Mogen leden houthakken en hout zagen?",
+                                "antwoorden": [
+                                    {
+                                       "tak": "kapoenen-zeehondjes",
+                                        "antwoord": "Neen"
+                                    },{
+                                       "tak": "kabouters-welpen",
+                                        "antwoord": "Neen"
+                                    },{
+                                       "tak": "jonggidsen-verkenners-scheepsmakkers",
+                                        "antwoord": "Ja, als ze op de hoogte zijn van de basisregels over veiligheid en als de leiding de activiteit begeleidt en zorgt voor een veilige situatie."
+                                    },{
+                                       "tak": "gidsen-verkenners",
+                                        "antwoord": "Ja, als ze op de hoogte zijn van de basisregels over veiligheid"
+                                    },{
+                                       "tak": "jins-loodsen",
+                                        "antwoord": "Ja, als ze op de hoogte zijn van de basisregels over veiligheid"
+                                    }
+                                ]
+                            },
+                            {
+                                "vraag": "Mogen leden op vuur koken?",
+                                "antwoorden": [
+                                    {
+                                       "tak": "kapoenen-zeehondjes",
+                                        "antwoord": "Neen"
+                                    },{
+                                       "tak": "kabouters-welpen",
+                                        "antwoord": "Neen. Kabouters en welpen mogen begeleid door leiding wel een woudloperskeuken doen."
+                                    },{
+                                       "tak": "jonggidsen-verkenners-scheepsmakkers",
+                                        "antwoord": "Ja, maar begeleid door leiding of foeriers."
+                                    },{
+                                       "tak": "gidsen-verkenners",
+                                        "antwoord": "Ja"
+                                    },{
+                                       "tak": "jins-loodsen",
+                                        "antwoord": "Ja"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
             }
             ],
             "meerInfo": {
@@ -456,17 +518,12 @@ export class DataService {
                         ]
                     }
                 ]
-            }
+            },
     },
         {
             "titel": "Verkeer",
             "url": "verkeer",
-            "subthemas": [
-                {
-                   "titel": "",
-                    "inhoud": []
-                }
-            ],
+            "subthemas": [ ],
 
             "meerInfo": {
                 "titel": "Meer weten over verkeer?",
@@ -505,12 +562,7 @@ export class DataService {
         {
             "titel": "Drugs, tabak en alcohol",
             "url": "drugs-tabak-en-alcohol",
-            "subthemas": [
-                {
-                   "titel": "",
-                    "inhoud": []
-                }
-            ],
+            "subthemas": [ ],
             "meerInfo": {
                 "titel": "Meer weten over tabak, alcohol en drugs?",
                 "lijst": [{
@@ -579,10 +631,12 @@ export class DataService {
                     "inhoud": [
                         {
                             "titel": "Wet over welzijn",
+                            "type": "wet",
                             "tekst": "De wetgeving over het welzijn van kinderen en minderjarigen is uitgebreid en er zijn geen specifieke regels voor het jeugdwerk. Het Internationaal Verdrag Inzake de Rechten van het Kind is wel belangrijk voor ons. Zo heeft een kind bijvoorbeeld recht op anders zijn, een eigen mening, privacy en bescherming tegen geweld.<br><br>Vanaf 16 jaar is seksueel contact wettelijk toegestaan. Vanaf 14 jaar kan je toestemming geven tot seksueel contact als het leeftijdsverschil maximaal 5 jaar is en er geen machtsrelatie is. Seks met iemand jonger dan 14 jaar wordt beschouwd als verkrachting. Seksueel misbruik is verboden. Er is sprake van seksueel misbruik, als iemand “een beleving van seksualiteit opdringt aan een ander en iemand onder druk zet en gebruikt omwille van de eigen genotsbeleving”.<br><br>Enkel ouders en artsen mogen vrij verkrijgbare medicatie geven aan minderjarigen. Ouders kunnen die toestemming overdragen, bijvoorbeeld via de individuele steekkaart. Voor medicatie op voorschrift is een schriftelijke verklaring van een arts noodzakelijk."
                         },
                         {
                             "titel": "Regels Scouts en Gidsen Vlaanderen over welzijn",
+                            "type": "regel",
                             "lijst": [
                             "Leden zijn minstens 6 jaar vóór 1 januari van het lopende scoutsjaar of zitten in het eerste leerjaar. Takleiding is minstens 18 jaar of bereikt die leeftijd in de loop van het scoutsjaar. Groepsleiding is minimum 21 jaar.",
                             "Op elk kamp is minstens één 21-jarige aanwezig. ",
@@ -593,6 +647,7 @@ export class DataService {
                         },
                         {
                             "titel": "Suggesties over slapen",
+                            "type": "suggestie",
                             "lijst": [
                                 "Zorg voor spannende en uitdagende activiteiten zonder dat leden werkelijk bang worden. Kinderen moeten neen kunnen zeggen en die keuze moet gerespecteerd worden, ook bij rituelen die al lang meegaan. ",
                                 "Heb oog voor groepsdruk. Geef het goede voorbeeld en grijp in waar nodig. ",
@@ -708,12 +763,12 @@ export class DataService {
       return this.themas.find(t => t.url == titel);
   }
   haalAlleVragenOp(){
-      let vragen = new Array();
-      
-      let someArray = [1, "string", false];
+      let vragen = new Array();      
         for (let thema of this.themas) {
             for (let subThema of thema.subthemas) {
+                console.log(subThema);
                 if (subThema.vragen != undefined) {
+                    console.log(subThema);
                     vragen.push(subThema.vragen);
                 }
                 

@@ -10,14 +10,6 @@ export class HomePage {
     
     public staticPages = [
         {
-          title: 'Crisis en noodsituaties',
-          url: '/crisis-en-noodsituaties',
-        },
-        {
-          title: 'Wegwijs',
-          url: '/wegwijs',
-        },
-        {
           title: 'Veilige activiteit',
           url: '/veilige-activiteit',
         },
@@ -26,18 +18,23 @@ export class HomePage {
           url: '/verzekeringen-en-aansprakelijkheid',
         },
         {
+          title: 'Crisis en noodsituaties',
+          url: '/crisis-en-noodsituaties',
+        },
+        {
           title: 'Vragen en Antwoorden',
           url: '/vragen-en-antwoorden',
-        }
+        },
+        {
+          title: 'Wegwijs',
+          url: '/wegwijs',
+        },
       ];
 
     public themas;    
     
     constructor(private dataService: DataService) { }
-
-    
-    
-    
+   
     ngOnInit() {
         this.themas = this.dataService.haalThemasOp();
     }

@@ -9,10 +9,10 @@
 
 <ion-content padding>
     <div *ngFor="let st of thema.subthemas">
-        <div>{{ st.titel }}</div>
+        <div >{{ st.titel }}</div>
         <ion-card *ngFor="let od of st.inhoud">
             <ion-card-header>
-                <ion-card-title>{{ od.titel}}</ion-card-title>
+                <ion-card-title [ngClass]="{'wet': od.type=='wet','regel': od.type=='regel', 'richtlijn': od.type=='richtlijn', 'suggestie': od.type=='suggestie'  }">{{ od.titel }} {{ od.type }}</ion-card-title>
             </ion-card-header>
             <ion-card-content>
                 <p [innerHTML]="od.tekst"></p>

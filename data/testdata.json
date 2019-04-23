@@ -95,6 +95,7 @@
                             }
                         ]
                     }
+                    
             }
             ],
             "meerInfo": {
@@ -422,7 +423,54 @@
                         "Zet je tent niet onder bomen.",
                         "Maak spantouwen en piketten zichtbaar."
                     ]
-                    }]
+                    }],
+                    "vragen": {
+                        "titel": "Vragen en antwoorden per tak over materiaal",
+                        "inhoud": [
+                            {
+                                "vraag": "Mogen leden houthakken en hout zagen?",
+                                "antwoorden": [
+                                    {
+                                       "tak": "kapoenen-zeehondjes",
+                                        "antwoord": "Neen"
+                                    },{
+                                       "tak": "kabouters-welpen",
+                                        "antwoord": "Neen"
+                                    },{
+                                       "tak": "jonggidsen-verkenners-scheepsmakkers",
+                                        "antwoord": "Ja, als ze op de hoogte zijn van de basisregels over veiligheid en als de leiding de activiteit begeleidt en zorgt voor een veilige situatie."
+                                    },{
+                                       "tak": "gidsen-verkenners",
+                                        "antwoord": "Ja, als ze op de hoogte zijn van de basisregels over veiligheid"
+                                    },{
+                                       "tak": "jins-loodsen",
+                                        "antwoord": "Ja, als ze op de hoogte zijn van de basisregels over veiligheid"
+                                    }
+                                ]
+                            },
+                            {
+                                "vraag": "Mogen leden op vuur koken?",
+                                "antwoorden": [
+                                    {
+                                       "tak": "kapoenen-zeehondjes",
+                                        "antwoord": "Neen"
+                                    },{
+                                       "tak": "kabouters-welpen",
+                                        "antwoord": "Neen. Kabouters en welpen mogen begeleid door leiding wel een woudloperskeuken doen."
+                                    },{
+                                       "tak": "jonggidsen-verkenners-scheepsmakkers",
+                                        "antwoord": "Ja, maar begeleid door leiding of foeriers."
+                                    },{
+                                       "tak": "gidsen-verkenners",
+                                        "antwoord": "Ja"
+                                    },{
+                                       "tak": "jins-loodsen",
+                                        "antwoord": "Ja"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
             }
             ],
             "meerInfo": {
@@ -448,12 +496,12 @@
                         ]
                     }
                 ]
-            }
+            },
     },
         {
             "titel": "Verkeer",
             "url": "verkeer",
-
+            "subthemas": [ ],
 
             "meerInfo": {
                 "titel": "Meer weten over verkeer?",
@@ -492,8 +540,7 @@
         {
             "titel": "Drugs, tabak en alcohol",
             "url": "drugs-tabak-en-alcohol",
-
-
+            "subthemas": [ ],
             "meerInfo": {
                 "titel": "Meer weten over tabak, alcohol en drugs?",
                 "lijst": [{
