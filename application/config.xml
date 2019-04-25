@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="io.ionic.starter" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="G7L3KXKBFR.be.scoutsengidsenvlaanderen.speelopveilig" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>Speel op veilig</name>
-    <description>azer</description>
+    <description>Speel op veilig van Scouts en Gidsen Vlaanderen</description>
     <author email="informatica@scoutsengidsenvlaanderen.be" href="https://scoutsengidsenvlaandeen.be/">Scouts en Gidsen Vlaanderen</author>
     <content src="index.html" />
     <access origin="*" />
@@ -17,7 +17,7 @@
     <preference name="SplashMaintainAspectRatio" value="true" />
     <preference name="FadeSplashScreenDuration" value="300" />
     <preference name="SplashShowOnlyFirstTime" value="false" />
-    <preference name="SplashScreen" value="screen" />
+    <preference name="SplashScreen" value="none" />
     <preference name="SplashScreenDelay" value="3000" />
     <platform name="android">
         <allow-intent href="market:*" />
