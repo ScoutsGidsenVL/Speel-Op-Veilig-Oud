@@ -6,36 +6,46 @@
             "subthemas": [
                 {
                     "titel": "",
-                    "inhoud": [{
+                    "inhoud": [
+                        {
                             "titel": "Wet over vuur",
-                            "tekst": "In Vlaanderen en Wallonië mag je een kampvuur maken als je 25 meter afstand houdt van bossen en wouden en 100 meter van huizen, heiden, boomgaarden, …. Elke gemeente kan nog extra regels opleggen in het politiereglement. De wetgeving kan ook veranderen door het weer (bv. code rood). <br><br>In Vlaanderen moet je afspraken maken met de eigenaar van de kampgrond. In Wallonië heb je toestemming nodig van de boseigenaar.<br><br>Wie een brand veroorzaakt door onvoldoende voorzorgsmaatregelen te nemen, pleegt een strafbaar feit. Het gebruik van brandversnellers is bijvoorbeeld strafbaar. Je mag ook geen vuur maken op of naast de openbare weg. De rook kan het verkeer hinderen of onveilig maken door het zicht te belemmeren. <br><br>Afval verbranden in open lucht is verboden. Je mag enkel stoken met droog, onbewerkt hout."
-                },
+                            "type": "wet",
+                            "lijst": [
+                                "In <b>Vlaanderen en Wallonië mag je een kampvuur maken als je 25 meter afstand houdt van bossen en wouden en 100 meter van huizen, heiden, boomgaarden,</b> … Elke gemeente kan nog extra regels opleggen in het politiereglement. De wetgeving kan ook veranderen door het weer (bv. code rood).",
+                                "In Vlaanderen moet je afspraken maken met de eigenaar van de kampgrond. In Wallonië heb je toestemming nodig van de boseigenaar.",
+                                "Wie een <b>brand veroorzaakt door onvoldoende voorzorgsmaatregelen</b> te nemen, <b>pleegt</b> een <b>strafbaar</b> feit. Het gebruik van brandversnellers is bijvoorbeeld strafbaar. Je mag ook geen vuur maken op of naast de openbare weg. De rook kan het verkeer hinderen of onveilig maken door het zicht te belemmeren.",
+                                "Afval verbranden in open lucht is verboden. Je mag enkel stoken met droog, onbewerkt hout."
+                                ]
+                        },
                         {
                             "titel": "Regels Scouts en Gidsen Vlaanderen over vuur",
+                            "type": "regel",
                             "lijst": [
-                            "Kapoenen, zeehondjes, kabouters en (zee)welpen mogen enkel bij een kampvuur zitten onder toezicht.",
-                            "Jonggidsen, jongverkenners, scheepsmakkers, gidsen (zee)verkenners, jins en loodsen mogen zelf vuur maken. De leiding zorgt mee voor veilige omstandigheden.",
-                            "Spelen met brandende voorwerpen is niet toegestaan. Ook vuurspuwen is een verboden activiteit. Wandelen met fakkels mag.",
-                            "Spring nooit over een vuur. Loop nooit over hete kolen.",
-                            "Gebruik nooit gas-, hout- of kolenkachels in slaapvertrekken."
-                        ]
-                },
+                                "Kapoenen, zeehondjes, kabouters en (zee)welpen mogen enkel bij een kampvuur zitten onder toezicht.",
+                                "Jonggidsen, jongverkenners, scheepsmakkers, gidsen, (zee)verkenners, jins en loodsen mogen zelf vuur maken. De leiding zorgt mee voor veilige omstandigheden.",
+                                "Spelen met brandende voorwerpen is niet toegestaan. Ook vuurspuwen is een verboden activiteit. Wandelen met fakkels mag.",
+                                "Spring nooit over een vuur. Loop nooit over hete kolen.",
+                                "Gebruik nooit gas-, hout- of kolenkachels in slaapvertrekken."
+                            ]
+                        },
                         {
                             "titel": "Richtlijnen Scouts en Gidsen Vlaanderen over vuur",
+                            "type": "richtlijn",
                             "lijst": [
-                            "Maak een vaste kampvuurplaats.",
-                            "Hou het vuur beperkt. Blus en/of evacueer bij het minste vermoeden van brand.",
-                            "Hou minstens twee meter rondom vrij van brandbare voorwerpen;",
-                            "Maak tafelvuren zo hoog dat de kleinste gebruiker de inhoud van de pot kan zien zonder opstapje.",
-                            "Voorzie binnen handbereik voldoende blusmateriaal.",
-                            "Frituur nooit op open vuur",
-                            "Hou fleece en andere synthetische kledij weg van het vuur",
-                            "Laat brandend of uitdovend vuur of vuurresten nooit onbewaakt achter"
-                        ]
+                                "Maak een vaste kampvuurplaats.",
+                                "Hou het vuur beperkt. Blus en/of evacueer bij het minste vermoeden van brand.",
+                                "Hou minstens twee meter rondom vrij van brandbare voorwerpen;",
+                                "Maak tafelvuren zo hoog dat de kleinste gebruiker de inhoud van de pot kan zien zonder opstapje.",
+                                "Voorzie binnen handbereik voldoende blusmateriaal.",
+                                "Frituur nooit op open vuur.",
+                                "Hou fleece en andere synthetische kledij weg van het vuur",
+                                "Laat brandend of uitdovend vuur of vuurresten nooit onbewaakt achter"
+                            ]
 
-                },
+                        },
                         {
                             "titel": "Suggesties over vuur",
+                            "type": "suggestie",
                             "lijst": [
                             "Maak geen vuur op rotsachtige grond. ",
                             "Maak duidelijke afspraken over wie kookt en stookt. Waar staat het water? Waar ligt het blusdeken?",
@@ -59,7 +69,7 @@
                                         "antwoord": "Neen"
                                     },{
                                        "tak": "kabouters-welpen",
-                                        "antwoord": "Neen"
+                                        "antwoord": "Neen."
                                     },{
                                        "tak": "jonggidsen-verkenners-scheepsmakkers",
                                         "antwoord": "Ja, de leiding zorgt ervoor dat het in gecontroleerde omstandigheden gebeurt."
@@ -77,7 +87,7 @@
                                 "antwoorden": [
                                     {
                                        "tak": "kapoenen-zeehondjes",
-                                        "antwoord": "Neen"
+                                        "antwoord": "Neen."
                                     },{
                                        "tak": "kabouters-welpen",
                                         "antwoord": "Neen. Kabouters en welpen mogen begeleid door leiding wel een woudloperskeuken doen."
@@ -96,86 +106,25 @@
                         ]
                     }
                     
-            }
+                }
             ],
             "meerInfo": {
-                "titel": "Meer weten over water?",
+                "titel": "Meer weten over vuur?",
                 "lijst": [
                     {
-                        "titel": "Erkende zwemwateren in Vlaanderen",
-                        "links": [{
-                                "titel": "www.kwaliteitzwemwater.be",
-                                "url": "http:\\www.kwaliteitzwemwater.be"
-                            }
-                        ]
-                    },
-                    {
-                        "titel": "Aangewezen badzones in Wallonië",
+                        "titel": "Over vuur maken en blussen",
                         "links": [
                             {
-                                "titel": "environnement.wallonie.be/baignade",
-                                "url": "http:\\environnement.wallonie.be/baignade"
-                            }
-                        ]
-                    },
-                    {
-                        "titel": "Over kabelbanen",
-                        "links": [
-                            {
-                                "titel": "technieken@scoutsengidsenvlaanderen.be",
-                                "url": "mailto:technieken@scoutsengidsenvlaanderen.be"
-                        }
-
-                        ]
-                    },
-                    {
-                        "titel": "Voor vlotten gelden dezelfde regels als voor kano’s en kajaks",
-                        "links": [
-                            {
-                                "titel": "www.visurius.be/kano ",
-                                "url": "http:\\www.visurius.be/kano"
-                            },
-                            {
-                                "titel": "kayak.environnement.wallonie.be",
-                                "url": "http:\\kayak.environnement.wallonie.be"
-                            }
-                        ]
-                    },
-                    {
-                        "titel": "Zeescouting",
-                        "links": [
-                            {
-                                "beschrijving": "Voor zeescouting gelden specifieke richtlijnen die je vindt in het handboek ‘Nautische vaardigheden’"
-                            }
-                        ]
-                    },
-
-                    {
-                        "titel": "Betekenis signalisatie",
-                        "links": [
-                            {
-                                "titel": "www.ikwv.be",
-                                "url": "http:\\www.ikwv.be"
-                            }
-                        ]
-                    },
-                    {
-                        "titel": " Zwemvesten uitlenen",
-                        "links": [
-                            {
-                                "titel": "Over vuur maken en blussen",
                                 "beschrijving": "het Buitenboek, te koop in Hopper Winkel"
                             }
                         ]
                     },
-
-
                     {
                         "titel": "Over kleurcodes brandgevaar en lokale politiereglementen",
                         "links": [
                             {
                                 "titel": "www.natuurenbos.be/waarschuwingen",
-                                "url": "http://www.natuurenbos.be/waarschuwingen"
+                                "url": "https://www.natuurenbos.be/waarschuwingen"
                             }
                         ]
                     }
@@ -191,24 +140,32 @@
                     "inhoud": [
                         {
                             "titel": "Wet over water",
-                            "tekst": "In Vlaanderen is het verboden om te zwemmen in bevaarbare waterwegen. Zwemmen in beken en sloten wordt ten zeerste afgeraden omdat de veiligheid niet gegarandeerd kan worden. <br><br>In Vlaanderen mag je met een zelfgebouwd vlot varen op de 'onbevaarbare waterlopen': beekjes en riviertjes waarop geen scheepvaart mogelijk is.<br><br>In Wallonië mag je enkel zwemmen en varen met een vlot in aangewezen badzones."
-                },
+                            "type": "wet",
+                            "lijst":
+                                [ 
+                                "<b>In Vlaanderen is het verboden om te zwemmen in bevaarbare waterwegen.</b> Zwemmen in beken en sloten wordt ten zeerste afgeraden omdat de veiligheid niet gegarandeerd kan worden.",
+                                "<b>In Vlaanderen mag je met een zelfgebouwd vlot varen op de 'onbevaarbare waterlopen'</b>: beekjes en riviertjes waarop geen scheepvaart mogelijk is.",
+                                "<b>In Wallonië mag je enkel zwemmen en varen met een vlot in aangewezen badzones.</b>"
+                                ]
+                        },
                         {
                             "titel": "Regels Scouts en Gidsen Vlaanderen over water",
+                            "type":"regel",
                             "lijst": [
-                            "Zwem enkel in erkende zwemwateren en aangewezen badzones. Je herkent ze in Vlaanderen aan dit symbool:",
+                            "Zwem enkel in erkende zwemwateren en aangewezen badzones.",
                             "Ken de zwemcapaciteit van elk van je leden.",
                             "Hou altijd met voldoende mensen in en naast het water toezicht.",
                             "Stap alleen op het ijs als dat officieel is toegelaten door burgemeester en brandweer."
-                        ]
-                },
+                            ]
+                        },
                         {
                             "titel": "Richtlijnen Scouts en Gidsen Vlaanderen over water",
+                            "type": "richtlijn",
                             "lijst": [
                             "Spring nooit zomaar in onbekend water.",
                             "Tel de leden regelmatig.",
-                            "Bouw nooit een (tenten)kamp op oevers of in een droogstaande rivierbedding. ",
-                            "Draag altijd een zwemvest op een vlot, in een kajak of kano. "
+                            "Bouw nooit een (tenten)kamp op oevers of in een droogstaande rivierbedding.",
+                            "Draag altijd een zwemvest op een vlot, in een kajak of kano."
                         ]
                 }
                 ]
@@ -235,16 +192,6 @@
                         ]
                     },
                     {
-                        "titel": "Over kabelbanen",
-                        "links": [
-                            {
-                                "titel": "technieken@scoutsengidsenvlaanderen.be",
-                                "url": "mailto:technieken@scoutsengidsenvlaanderen.be"
-                        }
-
-                        ]
-                    },
-                    {
                         "titel": "Voor vlotten gelden dezelfde regels als voor kano’s en kajaks",
                         "links": [
                             {
@@ -253,7 +200,8 @@
                             },
                             {
                                 "titel": "kayak.environnement.wallonie.be",
-                                "url": "http:\\kayak.environnement.wallonie.be"
+                                "url": "http:\\kayak.environnement.wallonie.be",
+                                "beschrijving": "kajakzones"
                             }
                         ]
                     },
@@ -289,8 +237,6 @@
                             }
                         ]
                     },
-
-
                     {
                         "titel": "Schaatsvijvers",
                         "links": [
@@ -302,9 +248,7 @@
                     }
                 ]
             }
-
-
-    },
+        },
         {
             "titel": "Hoogte",
             "url": "hoogte",
@@ -312,11 +256,12 @@
                 {
                     "titel": "",
                     "inhoud": [{
-
                             "titel": "Wet over hoogte",
-                            "tekst": "Er is geen specifieke wetgeving over hoogte die van toepassing is op jeugdbewegingen. Hier geldt dus het principe van de goede huisvader en organisatieplicht. Daarover vind je meer op pagina X. "
+                            "type": "wet",
+                            "tekst": "Er is geen specifieke wetgeving over hoogte die van toepassing is op jeugdbewegingen. Hier geldt dus het principe van de goede huisvader en organisatieplicht."
                     }, {
                             "titel": "Regels Scouts en Gidsen Vlaanderen over hoogte",
+                            "type": "regel",
                             "lijst": [
                             "Beveilig bij elke hoogteactiviteit (ook bijvoorbeeld een toren sjorren) elke individuele deelnemer met het nodige degelijk materiaal zoals klimtouw en helm.",
                             "Begeleid activiteiten in de hoogte altijd met minstens twee leid(st)ers. ",
@@ -326,15 +271,17 @@
                         ]
                     }, {
                             "titel": "Richtlijnen Scouts en Gidsen Vlaanderen over vuur",
+                            "type": "richtlijn",
                             "lijst": [
-                            "Neem elk signaal van hoogtevrees ernstig. ",
-                            "Hou altijd toezicht op spontaan klimwerk, bijvoorbeeld in bomen. Zoek samen een gezonde klimboom en maak goede afspraken.",
-                            "Twijfel je aan de kwaliteit van het materiaal of de deskundigheid van de begeleiding van een gespecialiseerde activiteit? Neem dan geen risico en stop de activiteit.",
-                            "Span nooit touwen over een rijweg, pad of rivier. Iemand die met snelheid tegen het touw rijdt of vaart kan zich er ernstig aan kwetsen."
+                                "Neem elk signaal van hoogtevrees ernstig.",
+                                "Hou altijd toezicht op spontaan klimwerk, bijvoorbeeld in bomen. Zoek samen een gezonde klimboom en maak goede afspraken.",
+                                "Twijfel je aan de kwaliteit van het materiaal of de deskundigheid van de begeleiding van een gespecialiseerde activiteit? Neem dan geen risico en stop de activiteit.",
+                                "Span nooit touwen over een rijweg, pad of rivier. Iemand die met snelheid tegen het touw rijdt of vaart kan zich er ernstig aan kwetsen."
                         ]
 
                     }, {
                             "titel": "Suggesties over hoogte",
+                            "type": "suggestie",
                             "lijst": [
                             "Gooi nooit materiaal omhoog of vanuit een constructie naar omlaag.",
                             "Span touwen met katrollen of spanband nooit op met behulp van voertuigen of mechanische lieren (tirefort)."
@@ -395,34 +342,43 @@
                     "titel": "",
                     "inhoud": [{
                         "titel": "Wet over materiaal",
-                        "tekst": "De meeste materialen moeten aan wettelijke normen voldoen, waarmee moet de fabrikant rekening houden. Als goede huisvader ben je verplicht om het materiaal goed te onderhouden en om er voor te zorgen dat iedereen weet hoe hij of zij het moet gebruiken. <br><br>Volg altijd de veiligheidsvoorschriften en zorg dat je leden dat ook doen. Zo vermijd je ongevallen. <br><br>Voor speeltuigen, trampolines, schommels, klimrekken, springkastelen, kabelbanen of glijbanen bestaan strenge veiligheidsnormen. Zowel als ze vast als tijdelijk op je terrein staan."
+                        "type": "wet",
+                        "lijst": [
+                            "De meeste materialen moeten aan wettelijke normen voldoen, waarmee moet de fabrikant rekening houden. Als goede huisvader <b>ben je verplicht om het materiaal goed te onderhouden en om er voor te zorgen dat iedereen weet hoe hij of zij het moet gebruiken.</b>",
+                            "<b>Volg altijd de veiligheidsvoorschriften en zorg dat je leden dat ook doen.</b> Zo vermijd je ongevallen.",
+                            "Voor speeltuigen, trampolines, schommels, klimrekken, springkastelen, kabelbanen of glijbanen bestaan strenge veiligheidsnormen. Zowel als ze vast als tijdelijk op je terrein staan."
+                        ] 
                     }, {
                         "titel": "Regels Scouts en Gidsen Vlaanderen over materiaal",
+                        "type": "regel",
                         "lijst": [
                             "Vanaf jonggidsen/jongverkenners/scheepsmakkers mogen leden bijlen, zakmessen en zagen gebruiken. Bij jonggidsen/jongverkenners/scheepsmakkers gebeurt dat altijd begeleid door leiding.",
-                            "Leden mogen enkel helpen bij verfraaiing en onderhoud aan het lokaal. Niet bij verbouwingen."
+                            "Leden mogen enkel helpen bij verfraaiing en onderhoud aan het lokaal. Niet bij verbouwingen.",
+                            "Controleer gasslangen altijd voor gebruik op (haar)scheurtjes. Twijfel je? Vervang ze. Vervang gasslangen sowieso om de 2 jaar, de productiedatum staat er op."
                         ]
                     }, {
                         "titel": "Richtlijnen Scouts en Gidsen Vlaanderen over materiaal",
+                        "type": "richtlijn",
                         "lijst": [
                             "Gebruik enkel kwalitatief materiaal dat je kan kopen bij gespecialiseerde handelaars.",
                             "Controleer de gasleidingen van bekkens altijd op defecten of slechte aansluitingen. Gebruik daarvoor nooit een lucifer of aansteker.",
-                            "Respecteer de vervaldata op gasleidingen. ",
+                            "Respecteer de vervaldata op gasleidingen.",
                             "Hou bij het houthakken voldoende ruimte en draag stevige, dichte schoenen. ",
                             "Plan voor het kamp oefeningen in het hakken. Maak van een introductiecursus ‘Hamer, Bijl & Zaag’ een vast item in de takwerking van jonggidsen, jongverkenners en scheepsmakkers. "
                         ]
 
                     }, {
                         "titel": "Suggesties over materiaal",
+                        "type": "suggestie",
                         "lijst": [
-                        "Zagen is sneller en veiliger dan hakken.",
-                        "Zorg dat stelen van bijlen, zagen en messen stevig en veerkrachtig zijn en niet loszitten. ",
-                        "Zorg dat bijlen voldoende scherp zijn.",
-                        "Laat materiaal nooit rondslingeren. ",
-                        "Sjor met polyproptouw. Dat is het veiligst.",
-                        "Zet je tent niet onder bomen.",
-                        "Maak spantouwen en piketten zichtbaar."
-                    ]
+                            "Zagen is sneller en veiliger dan hakken.",
+                            "Zorg dat stelen van bijlen, zagen en messen stevig en veerkrachtig zijn en niet loszitten.",
+                            "Zorg dat bijlen voldoende scherp zijn.",
+                            "Laat materiaal nooit rondslingeren. ",
+                            "Sjor met polyproptouw. Dat is het veiligst.",
+                            "Zet je tent niet onder bomen.",
+                            "Maak spantouwen en piketten zichtbaar."
+                        ]
                     }],
                     "vragen": {
                         "titel": "Vragen en antwoorden per tak over materiaal",
@@ -447,31 +403,10 @@
                                         "antwoord": "Ja, als ze op de hoogte zijn van de basisregels over veiligheid"
                                     }
                                 ]
-                            },
-                            {
-                                "vraag": "Mogen leden op vuur koken?",
-                                "antwoorden": [
-                                    {
-                                       "tak": "kapoenen-zeehondjes",
-                                        "antwoord": "Neen"
-                                    },{
-                                       "tak": "kabouters-welpen",
-                                        "antwoord": "Neen. Kabouters en welpen mogen begeleid door leiding wel een woudloperskeuken doen."
-                                    },{
-                                       "tak": "jonggidsen-verkenners-scheepsmakkers",
-                                        "antwoord": "Ja, maar begeleid door leiding of foeriers."
-                                    },{
-                                       "tak": "gidsen-verkenners",
-                                        "antwoord": "Ja"
-                                    },{
-                                       "tak": "jins-loodsen",
-                                        "antwoord": "Ja"
-                                    }
-                                ]
                             }
                         ]
                     }
-            }
+                }
             ],
             "meerInfo": {
                 "titel": "Meer weten over materiaal?",
@@ -496,13 +431,381 @@
                         ]
                     }
                 ]
-            },
+            }
     },
         {
             "titel": "Verkeer",
             "url": "verkeer",
-            "subthemas": [ ],
+            "subthemas": [ 
+                {
+                    "titel": "Voetgangers",
+                    "inhoud": [
+                        {
+                            "titel": "Wet over voetgangers",
+                            "type": "wet",
+                            "lijst": [
+                                {
+                                    "titel": "Waar stappen?",
+                                    "items": [
+                                        "<b>Wandel altijd op het voetpad.</b>",
+                                        "Geen voetpad? Loop op <b>de begaanbare gelijkgrondse bermen.</b>",
+                                        "Ook geen gelijkgrondse berm? Dan mag je stappen op het <b>fietspad</b> (verleen wel voorrang aan fietsers).",
+                                        "Kan dat ook niet? Dan mag je op de rijbaan wandelen. Stap altijd zo links mogelijk en achter elkaar."
+                                        ]
+                                },
+                                {
+                                    "titel": "Waar oversteken?",
+                                    "items": [
+                                        "Gebruik altijd een oversteekplaats als die er is (verplicht te gebruiken als die zich op minder dan 30 meter bevindt).",
+                                        "Op kruispunten zonder verkeerslichten kan de begeleid(st) er een overstekende groep signaleren aan het aankomende verkeer. Dat kan met het verkeersbord C3.",
+                                        "Aanwijzingen met het bord C3 mogen niet in strijd zijn met verkeerstekens of verkeersregels. Je mag het C3-bordje niet gebruiken om het verkeer te doen stoppen. Je mag het enkel gebruiken om je overstekende groep extra te benadrukken.",
+                                        "Als het voetgangerslicht op rood springt tijdens het oversteken, dan mag enkel de groep die al op het zebrapad is, verder lopen. Wie nog op de stoep staat, moet wachten tot het groen wordt.",
+                                        "<b>Zijn er geen zebrapaden? Zorg dat je oversteekt op een veilige en zichtbare plaats </b>(niet in een bocht of op een helling)."
+                                    ]
+                                },
+                                {
+                                    "titel": "Altijd zichtbaar",
+                                    "items": [
+                                        "Volgens de wet moet je <b>altijd goed zichtbaar zijn in het verkeer.</b>",
+                                        "Groepen vanaf vijf personen moeten verplicht een rood licht rechts vooraan en wit licht rechts achteraan dragen als je minder dan 200 meter ver kan zien.",
+                                        "Is de groep lang? Dan is het verplicht om op de flanken bijkomende witte lichten te voorzien die in alle richtingen zichtbaar zijn."
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "titel": "Regels Scouts en Gidsen Vlaanderen over voetgangers",
+                            "type": "regel",
+                            "lijst": [
+                                "Begeleid kapoenen, zeehondjes, (zee)welpen en kabouters altijd op de openbare weg.", 
+                                "Bij beperkte zichtbaarheid dragen alle leden en leiding die tijdens activiteiten op de weg komen fluohesjes.",
+                                "Loop nooit langs of over sporen.",
+                                {
+                                    "beschrijving": "Leden mogen nooit liften. Leid(st)ers mogen liften als ze aan alle onderstaande voorwaarden voldoen:",
+                                    "items": [
+                                        "minstens per twee;",
+                                        "evenwichtig verdeeld (zowel onervaren als ervaren leiding, assertief en voorzichtig);",
+                                        "elkaar op de hoogte houden van plaats, route of gebruikte functie (via sms of app);",
+                                        "nuchter;",
+                                        "minstens één iemand meerderjarig;",
+                                        "volgens de wegcode. Op op- en afritten is het verboden te liften."
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "titel": "Richtlijnen Scouts en Gidsen Vlaanderen over voetgangers",
+                            "type": "richtlijn",
+                            "lijst": [
+                                "Draag altijd fluohesjes als je met een groep op de openbare weg komt. Ook bij goede zichtbaarheid.",
+                                "Informeer je leden over de verkeersregels en afspraken. Ook bij een dorps- of stadsspel.",
+                                "Activiteiten in een gebergte of afgelegen gebieden vereisen voorbereiding. Volg het advies van een erkend deskundige en zorg dat je actuele informatie hebt."
+                            ]
+                        },
+                        {
+                            "title": "Suggesties over voetgangers",
+                            "type": "suggestie",
+                            "lijst": [
+                                "Stippel je reisweg op voorhand uit en kies zoveel mogelijk voor ‘trage wegen’.",
+                                "Pas de lengte van je tocht aan de leeftijd van je leden aan. Een goed gemiddelde tot veertien jaar is: het aantal kilometers van de tocht = de leeftijd van de leden."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "titel": "dropping",
+                    "beschrijving": "Dropping is mensen achterlaten op een voor hen onbekende plaats, zonder begeleiding, met als opdracht op eigen houtje de weg te vinden. De wet en regels voor voetgangers gelden ook bij dropping. Zorg dat de deelnemers ze kennen.",
+                    "inhoud": [
+                        {
+                            "titel": "Wet over dropping",
+                            "type": "wet",
+                            "lijst": [
+                                "Overschrijd het maximum aantal zitplaatsen in de auto niet. <b>Per gordel één persoon is de regel, ook voor kinderen.</b>"
+                            ]
+                        },
+                        {
+                            "titel": "Regels Scouts en Gidsen Vlaanderen over dropping",
+                            "type": "regel",
+                            "lijst": [
+                                "Avond- en nachtdroppings zijn activiteiten voor gidsen, (zee)verkenners, jins, loodsen en leiding.",
+                                "Het einduur van een dropping voor scheepsmakkers, jonggidsen en jongverkenners is 22 uur.",
+                                "Tijdens weekendnachten zijn avond- en nachtdroppingen langs verharde openbare wegen verboden.",
+                                "De deelnemers zijn minimum per twee en blijven samen.",
+                                "Blinddoek deelnemers nooit in de auto.",
+                                "Je blijft verantwoordelijk voor de leden van je groep, ook al zijn ze op tocht. Zorg dat je weet waar je leden zich bevinden, voorzie voldoende controle."
+                            ]
+                        },
+                        {
+                            "titel": "Richtlijnen Scouts en Gidsen Vlaanderen over dropping",
+                            "type": "richtlijn",
+                            "lijst": [
+                                "Zorg dat iedereen een fluohesje draagt. Controleer tijdens de dropping of ze het ook dragen.",
+                                "Geef leden een contactnummer van leiding en het nummer van de hulpdiensten mee voor in geval van nood."
+                            ]
+                        },
+                        {
+                            "titel": "Suggesties over dropping",
+                            "type": "suggestie",
+                            "lijst": [
+                                "Kies voornamelijk onverharde wegen.",
+                                "Maak kleine groepjes van minstens twee, hoogstens zeven personen."
+                            ]
+                            
+                        }
+                    
+                    
+                    ],
+                    "vragen": {
+                        "titel": "Vragen en antwoorden per tak over voetgangers en dropping",
+                        "inhoud": [
+                            {
+                                "vraag": "Mogen leden zonder leiding overdag op tocht?",
+                                "antwoorden": [
+                                    {
+                                       "tak": "kapoenen-zeehondjes",
+                                        "antwoord": "Neen"
+                                    },{
+                                       "tak": "kabouters-welpen",
+                                        "antwoord": "Neen"
+                                    },{
+                                       "tak": "jonggidsen-verkenners-scheepsmakkers",
+                                        "antwoord": "Ja, als er voldoende controle en de route veilig en verkend is. Leiding en leden kunnen elkaar bereiken."
+                                    },{
+                                       "tak": "gidsen-verkenners",
+                                        "antwoord": "Ja, als er voldoende controle is en leiding en leden elkaar kunnen bereiken."
+                                    },{
+                                       "tak": "jins-loodsen",
+                                        "antwoord": "Ja, als er voldoende controle is en leiding en leden elkaar kunnen bereiken."
+                                    }
+                                ]
+                                
+                            },
+                            {
+                                "vraag": "Mogen leden zonder leiding ‘s avonds op tocht?",
+                                "antwoorden": [
+                                    {
+                                       "tak": "kapoenen-zeehondjes",
+                                        "antwoord": "Neen"
+                                    },{
+                                       "tak": "kabouters-welpen",
+                                        "antwoord": "Neen"
+                                    },{
+                                       "tak": "jonggidsen-verkenners-scheepsmakkers",
+                                        "antwoord": "Ja, tot 22 uur. Als er voldoende controle is en leiding en leden elkaar kunnen bereiken. Voorzie fluohesjes. Tijdens weekends zijn avonddroppingen langs verharde openbare wegen verboden."
+                                    },{
+                                       "tak": "gidsen-verkenners",
+                                        "antwoord": "Ja, als er voldoende controle is en leiding en leden elkaar kunnen bereiken. Voorzie fluohesjes. Tijdens weekendnachten zijn avond- en nachtdroppingen langs verharde openbare wegen verboden."
+                                    },{
+                                       "tak": "jins-loodsen",
+                                        "antwoord": "Ja, als er voldoende controle is en leiding en leden elkaar kunnen bereiken. Voorzie fluohesjes. Tijdens weekendnachten zijn avond- en nachtdroppingen langs verharde openbare wegen verboden."
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                },
+                {
+                    "titel": "Twee- en driedaagse",
+                    "vragen": {
+                        "titel": "Vragen en antwoorden over voetgangers en twee- en driedaagse",
+                        "inhoud": [
+                            {
+                                "vraag": "Mogen leden zonder leiding op twee- of driedaagse?",
+                                "antwoorden": [
+                                    {
+                                       "tak": "kapoenen-zeehondjes",
+                                       "antwoord": "Neen."
+                                    },
+                                    {
+                                       "tak": "kabouters-welpen",
+                                       "antwoord": "Neen."
+                                    },
+                                    {
+                                        "tak": "jonggidsen-verkenners-scheepsmakkers",
+                                        "antwoord": "Ja, tweedaagse mag als het voorbereid wordt zoals een dropping."
+                                    },
+                                    {
+                                        "tak": "gidsen-verkenners",
+                                        "antwoord": "Ja, driedaagse mag als het voorbereid wordt zoals een dropping."
+                                    },
+                                    {
+                                        "tak": "jins-loodsen",
+                                        "antwoord": "Ja, driedaagse mag als het voorbereid wordt zoals een dropping."
+                                    }
+                                ]
+                            },
+                            {
+                                "vraag": "Mogen leden op twee- of driedaagse zelf een slaapplaats zoeken?",
+                                "antwoorden": [
+                                    {
+                                       "tak": "kapoenen-zeehondjes",
+                                       "antwoord": "Neen."
+                                    },
+                                    {
+                                       "tak": "kabouters-welpen",
+                                       "antwoord": "Neen."
+                                    },
+                                    {
+                                        "tak": "jonggidsen-verkenners-scheepsmakkers",
+                                        "antwoord": "Neen, de leiding zorgt voor een slaapplaats en slaapt ter plaatse."
+                                    },
+                                    {
+                                        "tak": "gidsen-verkenners",
+                                        "antwoord": "Ja, de leiding gaat ter plaatse controleren."
+                                    },
+                                    {
+                                        "tak": "jins-loodsen",
+                                        "antwoord": "Ja."
+                                    }
+                                ]
+                            },
+                            {
+                                "vraag": "Mogen leden op twee- of driedaagse zonder leiding slapen?",
+                                "antwoorden": [
+                                    {
+                                       "tak": "kapoenen-zeehondjes",
+                                       "antwoord": "Neen."
+                                    },
+                                    {
+                                       "tak": "kabouters-welpen",
+                                       "antwoord": "Neen."
+                                    },
+                                    {
+                                        "tak": "jonggidsen-verkenners-scheepsmakkers",
+                                        "antwoord": "Neen, leiding moet onmiddellijk bereikbaar zijn bij problemen en ’s nachts toezicht houden."
+                                    },
+                                    {
+                                        "tak": "gidsen-verkenners",
+                                        "antwoord": "Ja, als leiding en leden elkaar kunnen bereiken."
+                                    },
+                                    {
+                                        "tak": "jins-loodsen",
+                                        "antwoord": "Ja, als leiding en leden elkaar kunnen bereiken."
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                },
+                {
+                    "title": "Fietsers",
+                    "bschrijving": "De verplichte uitrusting van een fiets is: een bel (hoorbaar tot 20m), twee goed functionerende remmen en reflectoren. Als het donker is of bij verminderde zichtbaarheid moeten fiets of fietser vooraan een wit (knipper)licht en achteraan een rood (knipper)licht dragen.",
+                    "inhoud": [
+                        {
+                            "title": "Wet over fietsers",
+                            "type": "wet",
+                            "beschrijving": "De wet onderscheidt bij fietsers drie soorten groepen.",
+                            "lijst": [
+                                {
+                                    "titel": "Fiets je met <b>minder dan vijftien</b> fietsers? Dan volg je de regels voor de individuele fietser.",
+                                    "itmes": [
+                                        "<b>Fiets altijd op het fietspad.</b> Op een fietspad mag je met zoveel personen naast elkaar fietsen als de breedte toelaat. Let op: andere weggebruikers mogen daarbij niet gehinderd worden.",
+                                        "Is er geen fietspad? Dan mag je fietsen op parkeerzones en gelijkgrondse bermen aan de rechterkant.",
+                                        "Bij gebrek aan andere oplossingen rij je rechts op de rijbaan. Je mag per twee naast elkaar rijden zolang kruisen mogelijk is.",
+                                        "Buiten de bebouwde kom moeten fietsers achter elkaar rijden als achterkomend verkeer nadert."
+                                        ]
+                                },
+                                {
+                                    "titel": "Fiets je in een groep van <b>vijftien tot vijftig fietsers?</b>",
+                                    "items": [
+                                        "Neem bij voorkeur het fietspad.", "Fietsen mag altijd met maximum twee naast elkaar rechts op de rijbaan. Je mag nooit meer dan de helft van de rijbaan innemen en in geen geval meer dan een rijstrook."
+                                    ]
+                                },
+                                {
+                                    "title": "Voor groepen van meer dan 50 fietsers geldt een aparte wetgeving. Fiets zoveel mogelijk in kleinere groepen. Wetgeving op www.veiligopstap.be"
+                                }
 
+                            ]
+                        },
+                        {
+                            "titel": "Regels Scouts en Gidsen Vlaanderen over fietsers",
+                            "type": "regel",
+                            "lijst": [
+                                "Fiets niet met kapoenen en zeehondjes op de openbare weg.",
+                                "Bij beperkte zichtbaarheid dragen alle leden en leid(st)ers fluohesjes als ze de weg op gaan."
+                            ]
+                        },
+                        {
+                            "titel": "Richtlijnen Scouts en Gidsen Vlaanderen over fietsers",
+                            "type": "richtlijn",
+                            "lijst": [
+                                "Met kabouters en (zee)welpen kan je een fietsactiviteit op het scoutsterrein doen. We raden af om met hen op de openbare weg te fietsen",
+                                "Fiets altijd op één lijn, ook al mag je in bepaalde gebieden met twee naast elkaar fietsen.",
+                                "Vermijd een versnipperde groep.",
+                                "Een fietser draagt het best een fietshelm.",
+                                "Controleer voor een fietsactiviteit altijd of de fietsen van je leden wettelijk in orde zijn.",
+                                "Draag altijd fluohesjes als je met een groep op de openbare weg komt. Ook bij goede zichtbaarheid."
+                            ]
+                        },
+                        {
+                            "titel": "Suggesties over fietsers",
+                            "type": "suggestie",
+                            "lijst": [
+                                "Bevestig bagage altijd op een juiste manier. Gebruik liever fietstassen dan een overvolle rugzak.",
+                                "Stippel op voorhand je reisweg uit. Zoek een route met zo weinig mogelijk risico’s.",
+                                "Geef duidelijke instructies bij het begin van de tocht. Vraag correct gedrag en voldoende concentratie. Wijs ook op mogelijke gevaren tijdens de tocht."
+                            ]
+                        }
+                    ],
+                    "vragen": {
+                        "titel": "Vragen en antwoorden per tak over fietsers",
+                        "inhoud": [
+                            {
+                                "vraag": "Mogen leden fietsen op de openbare weg?",
+                                "antwoorden": [
+                                    {
+                                       "tak": "kapoenen-zeehondjes",
+                                       "antwoord": "Neen."
+                                    },
+                                    {
+                                       "tak": "kabouters-welpen",
+                                       "antwoord": "Wij raden het af"
+                                    },
+                                    {
+                                        "tak": "jonggidsen-verkenners-scheepsmakkers",
+                                        "antwoord": "Ja."
+                                    },
+                                    {
+                                        "tak": "gidsen-verkenners",
+                                        "antwoord": "Ja."
+                                    },
+                                    {
+                                        "tak": "jins-loodsen",
+                                        "antwoord": "Ja."
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                },
+                {
+                    "title": "Auto's",
+                    "inhoud": [
+                        { 
+                            "titel": "Wet over auto’s",
+                            "type": "wet",
+                            "lijst": [
+                                "Kinderen kleiner dan 1,35 meter mogen enkel vervoerd worden met de wagen in een geschikt <b>kinderbeveiligingssysteem</b>. Sporadisch vervoer over een korte afstand van andermans kinderen ouder dan 3 jaar mag wel, als kinderen achterin zitten en een gordel dragen.",
+                                "Kinderen mogen, ongeacht hun leeftijd, voorin op de passagiersstoel zitten, op voorwaarde dat ze vastgemaakt worden zoals de wet het voorschrijft.",
+                                "Per gordel één persoon, ook voor kinderen."
+                            ]
+                        },
+                        {
+                            "titel": "Regels Scouts en Gidsen Vlaanderen over auto’s",
+                            "type": "regel",
+                            "lijst": ["Wie een auto bestuurt, heeft geen druppel alcohol gedronken. Zorg dat er altijd iemand van de leidingsploeg onverwacht met de auto de weg op kan."]
+                        },
+                        {
+                            "titel": "Suggesties over auto’s",
+                            "type": "suggestie",
+                            "lijst": [
+                                "Pauzeer tijdens een langere autorit minstens elke twee uur of wissel van chauffeur.",
+                                "Wees je er van bewust dat een voertuig dat je niet gewend bent anders draait en remt. Let ook extra op met zwaar beladen wagens."
+                            ]
+                        }
+                    ]
+                }
+            ],
             "meerInfo": {
                 "titel": "Meer weten over verkeer?",
                 "lijst": [
@@ -511,8 +814,8 @@
                         "links": [{
                                 "titel": "www.veiligopstap.be",
                                 "url": "https://www.veiligopstap.be"
-                        }
-                    ]
+                            }
+                        ]
                     },
 
                     {
@@ -535,12 +838,183 @@
                     }
                 ]
             }
-
-    },
+        },
         {
             "titel": "Drugs, tabak en alcohol",
             "url": "drugs-tabak-en-alcohol",
-            "subthemas": [ ],
+            "subthemas": [
+                {
+                    "titel": "Drugs",
+                    "inhoud": [
+                        {
+                            "titel": "Wet over drugs",
+                            "type": "wet",
+                            "lijst": [
+                                "De wet maakt een onderscheid tussen cannabis en andere illegale drugs, maar het zijn <b>allemaal verboden producten</b>. Bezit, aankoop, verkoop en uitdelen zijn strafbaar. Als leden betrapt worden op het gebruik van illegale middelen, kan de leiding strafrechtelijk aansprakelijk gesteld worden."
+                            ]
+                        },
+                        {
+                            "titel": "Regels Scouts en Gidsen Vlaanderen over drugs",
+                            "type": "regel",
+                            "lijst": [
+                                "Maak met je groep afspraken voor leiding en leden over drugsgebruik. Onderstaande regels zijn een minimum.",
+                                "Het gebruik en bezit van illegale middelen (ook cannabis) is verboden in of rond de infrastructuur van de groep. Het is verboden om onder invloed te zijn van die middelen tijdens activiteiten."
+                            ]
+                        },
+                        {
+                            "titel": "Suggesties over drugs",
+                            "type": "suggestie",
+                            "lijst": [
+                                "Herbekijk jullie alcohol-, rook- en drugsbeleid jaarlijks.Onderteken het als leiding. Gebruik de BAR.",
+                                "Sociale druk kan er voor zorgen dat mensen tabak, alcohol of drugs gebruiken om erbij te horen. Grijp op tijd in."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "titel": "Tabak",
+                    "inhoud": [
+                        {
+                            "titel": "Wet over tabak",
+                            "type": "wet",
+                            "lijst": [
+                                "<b>Het is verboden om te roken in scouts- en gidsenlokalen</b>, ook op plaatsen waar enkel leiding komt. Dat geldt voor alle rookwaren: sigaretten, sigaren, e-sigaretten en waterpijpen.",
+                                "Je bent verplicht om <b>aan elke ingang van het lokaal een rookverbodsteken te hangen.</b> En in het lokaal mag niets wijzen op de mogelijkheid tot roken. Propere asbakken in het lokaal bijvoorbeeld zijn verboden en strafbaar."
+                            ]
+                        },
+                        {
+                            "titel": "Regels Scouts en Gidsen Vlaanderen over tabak",
+                            "type": "regel",
+                            "lijst": [
+                                "Maak met je groep afspraken voor leiding en leden over roken voor, tijdens en na de activiteiten. Onderstaande regel is een minimum.",
+                                "Tot en met jonggidsen, jongverkenners en scheepsmakkers mogen leden niet roken. En er mag ook in hun buurt niet gerookt worden."
+                            ]
+                        },
+                        {
+                            "titel": "Richtlijnen Scouts en Gidsen Vlaanderen over tabak",
+                            "type": "richtlijn",
+                            "lijst": [
+                                "Rook niet in het bijzijn van niet-rokers.",
+                                "Richt tijdens occasionele activiteiten zoals een bezoekdag of een groepsfeest een afgebakende rokerszone in die uit het zicht ligt van niet-rokers."
+                            ]
+                        },
+                        {
+                            "titel": "Suggesties over tabak",
+                            "type": "suggestie",
+                            "lijst": [
+                                "Herbekijk jullie alcohol-, rook- en drugsbeleid jaarlijks.Onderteken het als leiding. Gebruik de BAR.",
+                                "Sociale druk kan er voor zorgen dat mensen tabak, alcohol of drugs gebruiken om erbij te horen. Grijp op tijd in."
+                            ]
+                        }
+                    ],
+                    "vragen": {
+                        "titel": "Vragen en antwoorden per tak over tabak",
+                        "inhoud": [
+                            {
+                                "vraag": "Mogen leden en leiding een sigaret roken?",
+                                "antwoorden": [
+                                    {
+                                       "tak": "kapoenen-zeehondjes",
+                                        "antwoord": "Neen"
+                                    },{
+                                       "tak": "kabouters-welpen",
+                                        "antwoord": "Neen."
+                                    },{
+                                       "tak": "jonggidsen-verkenners-scheepsmakkers",
+                                        "antwoord": "Enkel met duidelijke afspraken. Als er jongere leden aanwezig zijn, gedraagt iedereen zich volgens de regels die voor de jongste aanwezigen gelden."
+                                    },{
+                                       "tak": "gidsen-verkenners",
+                                        "antwoord": "Enkel met duidelijke afspraken. Als er jongere leden aanwezig zijn, gedraagt iedereen zich volgens de regels die voor de jongste aanwezigen gelden."
+                                    },{
+                                       "tak": "jins-loodsen",
+                                        "antwoord": "Enkel met duidelijke afspraken. Als er jongere leden aanwezig zijn, gedraagt iedereen zich volgens de regels die voor de jongste aanwezigen gelden."
+                                    },
+                                    {
+                                        "tak": "leiding",
+                                        "antwoord": "Heeft altijd een voorbeeldfunctie en gedraagt zich in aanwezigheid van leden volgens de regels die voor de jongste aanwezigen gelden."
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                },
+                {
+                    "titel": "Alcohol",
+                    "inhoud": [
+                        {
+                            "titel": "Wet over alcohol",
+                            "type": "wet",
+                            "lijst": [
+                                "Openbare dronkenschap is strafbaar.",
+                                "<b>Het is verboden om alcohol te verkopen, te schenken of aan te bieden aan iedereen die jonger is dan zestien jaar.</b> Met alcohol bedoelt men alle alcoholhoudende dranken van meer dan 0.5% vol. zoals bier en wijn.",
+                                "<b>Sterke drank mag je niet verkopen, schenken of aanbieden aan -18-jarigen.</b> Dat geldt ook voor alcopops zoals breezers of cocktails met een beetje sterke drank in.",
+                                "De wet verbiedt ook het opdienen van alcoholische dranken aan iemand die zichtbaar dronken is, iemand opzettelijk tot dronkenschap brengen, of uitdagingen tot drinken voorstellen of aanvaarden."
+                            ]
+                        },
+                        {
+                            "titel": "Regels Scouts en Gidsen Vlaanderen over alcohol",
+                            "type": "regel",
+                            "lijst": [
+                                "Maak met je groep afspraken voor leiding en leden over alcoholgebruik voor, tijdens en na de activiteiten. Onderstaande regels zijn een minimum.",
+                                "Tot en met jonggidsen/jongverkenners/scheepsmakkers mogen leden geen alcohol drinken. Ook gidsen en (zee) verkenners jonger dan 16 jaar mogen nooit alcohol nuttigen; jins/loodsen jonger dan 18 jaar geen sterke drank.",
+                                "Als je alcohol aanbiedt, voorzie dan ook altijd een volwaardig niet-alcoholisch alternatief.",
+                                "Elke leid(st)er is op elk moment verantwoordelijk voor de leden die hem of haar zijn toevertrouwd. Dat geldt dus ook als de leden met iets anders bezig zijn of slapen.",
+                                "Tijdens activiteiten, op weekend of op kamp drinken altijd minimum twee leid(st)ers per tak geen druppel alcohol. Ook de rest van de leiding moet altijd handelingsbekwaam zijn, zelfs als de leden niet in de buurt zijn."
+                            ]
+                        },
+                        {
+                            "titel": "Richtlijnen Scouts en Gidsen Vlaanderen over tabak",
+                            "type": "richtlijn",
+                            "lijst": [
+                                "Tijdens de activiteiten respecteert de leiding dezelfde regels over alcohol als de leden van haar tak.",
+                                "Schenk geen alcohol in gidsen- en (zee)verkennertakken waar zowel leden jonger als ouder dan 16 jaar zijn.",
+                                "Schenk geen sterke drank in jin-/loods-takken waar zowel leden jonger als ouder dan 18 jaar zijn.",
+                                "Zorg er bij evenementen voor dat de leeftijd gecontroleerdwordt bij het schenken van alcohol, bijvoorbeeld met een systeem met bandjes."
+                            
+                            ]
+                        },
+                        {
+                            "titel": "Suggesties over alcohol",
+                            "type": "suggestie",
+                            "lijst": [
+                                "Herbekijk jullie alcohol-, rook- en drugsbeleid jaarlijks.Onderteken het als leiding. Gebruik de BAR.",
+                                "Sociale druk kan er voor zorgen dat mensen tabak, alcohol of drugs gebruiken om erbij te horen. Grijp op tijd in."
+                            ]
+                        }
+                    ],
+                    "vragen": {
+                        "titel": "Vragen en antwoorden per tak over tabak",
+                        "inhoud": [
+                            {
+                                "vraag": "Mogen leden en leiding alcohol drinken?",
+                                "antwoorden": [
+                                    {
+                                       "tak": "kapoenen-zeehondjes",
+                                        "antwoord": "Neen"
+                                    },{
+                                       "tak": "kabouters-welpen",
+                                        "antwoord": "Neen."
+                                    },{
+                                       "tak": "jonggidsen-verkenners-scheepsmakkers",
+                                        "antwoord": "Neen"
+                                    },{
+                                       "tak": "gidsen-verkenners",
+                                        "antwoord": "Het is bij wet verboden om jongeren onder 16 jaar alcohol te geven. We raden af om in gidsen/ (zee)verkennertakken met zowel leden jonger als ouder dan 16 jaar alcohol te serveren. Het is bij wet verboden om sterke drank te serveren aan -18-jarigen. Bij jin-/loods-takken met zowel leden jonger als ouder dan 18 jaar raden we af om sterke drank te serveren."
+                                    },{
+                                       "tak": "jins-loodsen",
+                                        "antwoord": "Het is bij wet verboden om jongeren onder 16 jaar alcohol te geven. We raden af om in gidsen/ (zee)verkennertakken met zowel leden jonger als ouder dan 16 jaar alcohol te serveren. Het is bij wet verboden om sterke drank te serveren aan -18-jarigen. Bij jin-/loods-takken met zowel leden jonger als ouder dan 18 jaar raden we af om sterke drank te serveren."
+                                    },
+                                    {
+                                        "tak": "leiding",
+                                        "antwoord": "Tijdens activiteiten gelden de alcoholregels zoals opgesteld voor de tak. Bij meerdaagse activiteiten drinken ‘s avonds minstens twee leid(st)ers geen alcohol. Alle leiding is handelingsbekwaam, ook al slapen de leden."
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                }
+
+            ],
             "meerInfo": {
                 "titel": "Meer weten over tabak, alcohol en drugs?",
                 "lijst": [{
@@ -548,7 +1022,7 @@
                         "links": [
                             {
                                 "titel": "www.qualitynights.be ",
-                                "url": "http:\\www.qualitynights.be "
+                                "url": "http://www.qualitynights.be "
                         }
                     ]
                     },
@@ -557,7 +1031,7 @@
                         "titel": "Over drugs",
                         "links": [{
                                 "titel": "www.druglijn.be",
-                                "url": "htpp:\\www.druglijn.be"
+                                "url": "htpp://www.druglijn.be"
                             },
                             {
                                 "titel": "078 15 10 20 ",
@@ -582,7 +1056,7 @@
                                 "url": "mailto:vad@vad.be"
                         }, {
                                 "titel": "www.vad.be",
-                                "url": "http:\\www.vad.be"
+                                "url": "http://www.vad.be"
                         }
                         ]
                     },
@@ -591,9 +1065,8 @@
                         "titel": "Over zelf een alcoholbeleid opstellen",
                         "links": [
                             {
-                                "titel": "www.scoutsengidsenvlaanderen.be",
-                                "url": "http:\\scoutsengidsenvlaanderen.be",
-                                "beschrijving": "zoek op BAR"
+                                "titel": "www.scoutsengidsenvlaanderen.be/bar",
+                                "url": "http://scoutsengidsenvlaanderen.be/bar"
                             }
                         ]
                     }
@@ -609,10 +1082,16 @@
                     "inhoud": [
                         {
                             "titel": "Wet over welzijn",
-                            "tekst": "De wetgeving over het welzijn van kinderen en minderjarigen is uitgebreid en er zijn geen specifieke regels voor het jeugdwerk. Het Internationaal Verdrag Inzake de Rechten van het Kind is wel belangrijk voor ons. Zo heeft een kind bijvoorbeeld recht op anders zijn, een eigen mening, privacy en bescherming tegen geweld.<br><br>Vanaf 16 jaar is seksueel contact wettelijk toegestaan. Vanaf 14 jaar kan je toestemming geven tot seksueel contact als het leeftijdsverschil maximaal 5 jaar is en er geen machtsrelatie is. Seks met iemand jonger dan 14 jaar wordt beschouwd als verkrachting. Seksueel misbruik is verboden. Er is sprake van seksueel misbruik, als iemand “een beleving van seksualiteit opdringt aan een ander en iemand onder druk zet en gebruikt omwille van de eigen genotsbeleving”.<br><br>Enkel ouders en artsen mogen vrij verkrijgbare medicatie geven aan minderjarigen. Ouders kunnen die toestemming overdragen, bijvoorbeeld via de individuele steekkaart. Voor medicatie op voorschrift is een schriftelijke verklaring van een arts noodzakelijk."
+                            "type": "wet",
+                            "lijst": [
+                                "De wetgeving over het welzijn van kinderen en minderjarigen is uitgebreid en er zijn geen specifieke regels voor het jeugdwerk. Het Internationaal Verdrag Inzake de Rechten van het Kind is wel belangrijk voor ons. Zo heeft een kind bijvoorbeeld recht op anders zijn, een eigen mening, privacy en bescherming tegen geweld.",
+                                "<b>Vanaf 16 jaar is seksueel contact wettelijk toegestaan.</b> Vanaf 14 jaar kan je toestemming geven tot seksueel contact als het leeftijdsverschil maximaal 5 jaar is en er geen machtsrelatie is. Seks met iemand jonger dan 14 jaar wordt beschouwd als verkrachting. Seksueel misbruik is verboden. Er is sprake van seksueel misbruik, als iemand “een beleving van seksualiteit opdringt aan een ander en iemand onder druk zet en gebruikt omwille van de eigen genotsbeleving”.",
+                                "<b>Enkel ouders en artsen mogen vrij verkrijgbare medicatie geven aan minderjarigen.</b> Ouders kunnen die toestemming overdragen, bijvoorbeeld via de individuele steekkaart. Voor medicatie op voorschrift is een schriftelijke verklaring van een arts noodzakelijk."
+                            ]
                         },
                         {
                             "titel": "Regels Scouts en Gidsen Vlaanderen over welzijn",
+                            "type": "regel",
                             "lijst": [
                             "Leden zijn minstens 6 jaar vóór 1 januari van het lopende scoutsjaar of zitten in het eerste leerjaar. Takleiding is minstens 18 jaar of bereikt die leeftijd in de loop van het scoutsjaar. Groepsleiding is minimum 21 jaar.",
                             "Op elk kamp is minstens één 21-jarige aanwezig. ",
@@ -622,30 +1101,41 @@
 
                         },
                         {
-                            "titel": "Suggesties over slapen",
+                            "titel": "Richtlijnen Scouts en Gidsen Vlaanderen over welzijn",
+                            "type": "ichtlijn",
                             "lijst": [
-                                "Zorg voor spannende en uitdagende activiteiten zonder dat leden werkelijk bang worden. Kinderen moeten neen kunnen zeggen en die keuze moet gerespecteerd worden, ook bij rituelen die al lang meegaan. ",
-                                "Heb oog voor groepsdruk. Geef het goede voorbeeld en grijp in waar nodig. ",
-                                "Wat het aantal dagen op kamp betreft, volg de richtlijn per tak. ",
+                                "Zorg voor spannende en uitdagende activiteiten zonder dat leden werkelijk bang worden. Kinderen moeten neen kunnen zeggen en die keuze moet gerespecteerd worden, ook bij rituelen die al lang meegaan.",
+                                "Heb oog voor groepsdruk. Geef het goede voorbeeld en grijp in waar nodig",
+                                "Wat het aantal dagen op kamp betreft, volg de richtlijn per tak.",
                                 "Wees attent voor symptomen van ziekte, voorzie een goed ingerichte ziekenruimte die niet te ver ligt van de rest van de groep en aarzel nooit om een dokter te raadplegen."
                             ]
                         },
                         {
-                            "titel": "Suggesties over seksualiteit",
-                            "beschrijving": "Twijfel je of een bepaalde situatie gepast is? Deze zes criteria helpen je een inschatting te maken",
+                            "titel": "Suggesties over slapen",
+                            "type": "suggestie",
                             "lijst": [
-                                "Toestemming: iedereen is akkoord en voelt zich prettig.",
-                                "Vrijwilligheid: geen vorm van druk.",
-                                "Gelijkwaardigheid: er is evenwicht op vlak van leeftijd en macht.",
-                                "Ontwikkeling: het gedrag past bij de leeftijd.",
-                                "Context: het gedrag past bij de omstandigheden.",
-                                "Zelfrespect: de situatie berokkent geen fysieke of emotionele schade.",
-                                "Alle criteria zijn oké? Experimenteer gerust verder. Als dat niet het geval is, grijp je als leiding in."
+                                "Vermoeidheid brengt risico’s met zich mee. Kinderen onderde 12 jaar hebben gemiddeld 9 tot 10 uur slaap nodig, oudere leden ongeveer 8 uur. Gun je leden voldoende recuperatietijd na nachtactiviteiten en tochten.",
+                                "Kies je voor een kampuur? Zorg er dan voor dat het niet meer dan 1 uur verschilt met het gewone uur.",
+                                "Leden mogen gemengd slapen, maar niets moet. Forceer niets. Vraag aan de leden wat ze ervan denken."
+                            ]
+                        },
+                        {
+                            "titel": "Suggesties over seksualiteit",
+                            "type": "suggestie",
+                            "beschrijving": "Twijfel je of een bepaalde situatie gepast is? Deze zes criteria helpen je een inschatting te maken. Alle criteria zijn oké? Experimenteer gerust verder. Als dat niet het geval is, grijp je als leiding in.",
+                            "lijst": [
+                                "<b>Toestemming:</b> iedereen is akkoord en voelt zich prettig.",
+                                "<b>Vrijwilligheid:</b> geen vorm van druk.",
+                                "<b>Gelijkwaardigheid:</b> er is evenwicht op vlak van leeftijd en macht.",
+                                "<b>Ontwikkeling:</b> het gedrag past bij de leeftijd.",
+                                "<b>Context:</b> het gedrag past bij de omstandigheden.",
+                                "<b>Zelfrespect:</b> de situatie berokkent geen fysieke of emotionele schade."
                             ]
 
                         },
                         {
                             "titel": "Suggesties over hygiëne ",
+                            "type": "suggestie",
                             "lijst": [
                                     "Gebruik enkel leidingwater of geattesteerd drinkwater om te drinken en koken. Ontsmet bidons en waterslangen chemisch. Informeer je bij de apotheker.",
                                     "Zorg dat iedereen zijn handen wast met zeep voor het koken en eten.",
@@ -655,7 +1145,195 @@
                                     "Controleer dagelijks op teken. "
                             ]
                         }
-                    ]
+                        ],
+                    "vragen": {
+                        "titel": "Vragen en antwoorden per tak over welzijn",
+                        "inhoud": [
+                            {
+                                "vraag": "Wat is de ideale verhouding tussen het aantal leden en het aantal leiding?",
+                                "antwoorden": [
+                                    {
+                                       "tak": "kapoenen-zeehondjes",
+                                        "antwoord": "1 leid(st)er per 5 leden."
+                                    },{
+                                       "tak": "kabouters-welpen",
+                                        "antwoord": "Minimum 2 per tak."
+                                    },{
+                                       "tak": "jonggidsen-verkenners-scheepsmakkers",
+                                        "antwoord": "1 leid(st)er per 6 leden. Minimum 2 per tak."
+                                    },{
+                                       "tak": "gidsen-verkenners",
+                                        "antwoord": "1 leid(st)er per 6 leden. Minimum 2 per tak."
+                                    },{
+                                       "tak": "jins-loodsen",
+                                        "antwoord": "1 leid(st)er per 6 leden. Minimum 2 per tak."
+                                    },
+                                    {
+                                        "tak": "akabe",
+                                        "antwoord": "1 leid(st)er per 3 leden. Minimum 2 per tak."
+                                    },
+                                    {
+                                        "tak": "open-kamp",
+                                        "antwoord": "1 leid(st)er per 3 leden. Minimum 2 per tak."
+                                    }
+                                ]
+                            },
+                            {
+                                "vraag": "Hoelang mag een kamp duren?",
+                                "antwoorden": [
+                                    {
+                                       "tak": "kapoenen-zeehondjes",
+                                        "antwoord": "Maximum 6 dagen."
+                                    },{
+                                       "tak": "kabouters-welpen",
+                                        "antwoord": "Maximum 10 dagen."
+                                    },{
+                                       "tak": "jonggidsen-verkenners-scheepsmakkers",
+                                        "antwoord": "Maximum 12 dagen."
+                                    },{
+                                       "tak": "gidsen-verkenners",
+                                        "antwoord": "Maximum 14 dagen."
+                                    },{
+                                       "tak": "jins-loodsen",
+                                        "antwoord": "Maximum 14 dagen."
+                                    }
+                                ]
+                            },
+                            {
+                                "vraag": "Mag je een leefweek organiseren?",
+                                "antwoorden": [
+                                    {
+                                       "tak": "kapoenen-zeehondjes",
+                                        "antwoord": "Neen."
+                                    },{
+                                       "tak": "kabouters-welpen",
+                                        "antwoord": "Neen."
+                                    },{
+                                       "tak": "jonggidsen-verkenners-scheepsmakkers",
+                                        "antwoord": "Neen."
+                                    },{
+                                       "tak": "gidsen-verkenners",
+                                        "antwoord": "ja."
+                                    },{
+                                       "tak": "jins-loodsen",
+                                        "antwoord": "ja."
+                                    }
+                                ]
+                                
+                            },
+                            {
+                                "vraag": "Mag je leden als straf naar huis sturen?",
+                                "antwoorden": [
+                                    {
+                                       "tak": "kapoenen-zeehondjes",
+                                        "antwoord": "Neen. Uitzonderlijk kan dat in zeer extreme omstandigheden en in onderling overleg met degene die je straft. Informeer altijd zijn of haar ouders over de beslissing."
+                                    },{
+                                       "tak": "kabouters-welpen",
+                                        "antwoord": "Neen. Uitzonderlijk kan dat in zeer extreme omstandigheden en in onderling overleg met degene die je straft. Informeer altijd zijn of haar ouders over de beslissing."
+                                    },{
+                                       "tak": "jonggidsen-verkenners-scheepsmakkers",
+                                        "antwoord": "Neen. Uitzonderlijk kan dat in zeer extreme omstandigheden en in onderling overleg met degene die je straft. Informeer altijd zijn of haar ouders over de beslissing."
+                                    },{
+                                       "tak": "gidsen-verkenners",
+                                        "antwoord": "Neen. Uitzonderlijk kan dat in zeer extreme omstandigheden en in onderling overleg met degene die je straft. Informeer altijd zijn of haar ouders over de beslissing."
+                                    },{
+                                       "tak": "jins-loodsen",
+                                        "antwoord": "Neen. Uitzonderlijk kan dat in zeer extreme omstandigheden en in onderling overleg met degene die je straft. Informeer altijd zijn of haar ouders over de beslissing."
+                                    }
+                                ]
+                                
+                            },
+                            {
+                                "vraag": "Mag je met je leden in het donker spelen?",
+                                "antwoorden": [
+                                    {
+                                       "tak": "kapoenen-zeehondjes",
+                                        "antwoord": "Ja, om aan het donker te wennen. Een spel spelen waardoor leden schrik krijgen, mag niet. De leiding is er altijd bij. Verplicht nooit iemand om hieraan deel te nemen."
+                                    },{
+                                       "tak": "kabouters-welpen",
+                                        "antwoord": "Ja, om aan het donker te wennen. Een spel spelen waardoor leden schrik krijgen, mag niet. De leiding is er altijd bij. Verplicht nooit iemand om hieraan deel te nemen."
+                                    },{
+                                       "tak": "jonggidsen-verkenners-scheepsmakkers",
+                                        "antwoord": "Spannende en uitdagende activiteiten kunnen. Een spel spelen waardoor leden schrik krijgen, mag niet. Verplicht nooit iemand om hieraan deel te nemen."
+                                    },{
+                                       "tak": "gidsen-verkenners",
+                                        "antwoord": "Spannende en uitdagende activiteiten kunnen. Een spel spelen waardoor leden schrik krijgen, mag niet. Verplicht nooit iemand om hieraan deel te nemen."
+                                    },{
+                                       "tak": "jins-loodsen",
+                                        "antwoord": "Spannende en uitdagende activiteiten kunnen. Een spel spelen waardoor leden schrik krijgen, mag niet. Verplicht nooit iemand om hieraan deel te nemen."
+                                    }
+                                ]
+                                
+                            },
+                            {
+                                "vraag": "Mag je met leden een realistische schrikaanjagende activiteit doen?",
+                                "antwoorden": [
+                                    {
+                                       "tak": "kapoenen-zeehondjes",
+                                        "antwoord": "Neen, een realistische schrikaanjagende activiteit is verboden."
+                                    },{
+                                       "tak": "kabouters-welpen",
+                                        "antwoord": "Neen, een realistische schrikaanjagende activiteit is verboden."
+                                    },{
+                                       "tak": "jonggidsen-verkenners-scheepsmakkers",
+                                        "antwoord": "Neen, een realistische schrikaanjagende activiteit is verboden."
+                                    },{
+                                       "tak": "gidsen-verkenners",
+                                        "antwoord": "Neen, een realistische schrikaanjagende activiteit is verboden."
+                                    },{
+                                       "tak": "jins-loodsen",
+                                        "antwoord": "Neen, een realistische schrikaanjagende activiteit is verboden."
+                                    }
+                                ]
+                                
+                            },
+                            {
+                                "vraag": "Moet leiding in dezelfde ruimte slapen als de leden?",
+                                "antwoorden": [
+                                    {
+                                       "tak": "kapoenen-zeehondjes",
+                                        "antwoord": "Ja, minstens één leid(st)er moet in dezelfde slaapruimte slapen. Zo ben je er snel bij als iemand heimwee heeft of naar het toilet moet."
+                                    },{
+                                       "tak": "kabouters-welpen",
+                                        "antwoord": "Neen, maar leiding moet binnen gehoorsafstand liggen en de leden moeten zonder schrik bij de leiding kunnen geraken. Laat bijvoorbeeld het licht branden in de gang."
+                                    },{
+                                       "tak": "jonggidsen-verkenners-scheepsmakkers",
+                                        "antwoord": "Neen. De leiding slaapt wel op hetzelfde terrein/lokaal."
+                                    },{
+                                       "tak": "gidsen-verkenners",
+                                        "antwoord": "Neen."
+                                    },{
+                                       "tak": "jins-loodsen",
+                                        "antwoord": "Neen."
+                                    }
+                                ]
+                                
+                            },
+                            {
+                                "vraag": "Hoeveel uren slaap hebben leden per nacht nodig?",
+                                "antwoorden": [
+                                    {
+                                       "tak": "kapoenen-zeehondjes",
+                                        "antwoord": "Ongeveer 10 uur. De leiding bepaalt het slaapuur."
+                                    },{
+                                       "tak": "kabouters-welpen",
+                                        "antwoord": "Gemiddeld 8 tot 9 uur. De leiding bepaalt het slaapuur."
+                                    },{
+                                       "tak": "jonggidsen-verkenners-scheepsmakkers",
+                                        "antwoord": "Gemiddeld 8 tot 9 uur. De leiding bepaalt het slaapuur."
+                                    },{
+                                       "tak": "gidsen-verkenners",
+                                        "antwoord": "Gemiddeld 8 uur. Leden en leiding spreken samen af hoe laat de leden gaan slapen."
+                                    },{
+                                       "tak": "jins-loodsen",
+                                        "antwoord": "Gemiddeld 8 uur. Leden en leiding spreken samen af hoe laat de leden gaan slapen."
+                                    }
+                                ]
+                                
+                            }
+                            
+                        ]
+                    } 
                 }
             ],
             "meerInfo": {
@@ -668,7 +1346,7 @@
                         },
                             {
                                 "titel": "www.scoutsengidsenvlaanderen.be",
-                                "url": "http:\\scoutsengidsenvlaanderen.be"
+                                "url": "http://scoutsengidsenvlaanderen.be"
                         },
                             {
                                 "titel": "in de basiswerken van Scouts en Gidsen Vlaanderen: ",
@@ -681,7 +1359,7 @@
                         "titel": "Over lichamelijkheid en seksualiteit",
                         "links": [{
                                 "titel": "www.seksuelevorming.be ",
-                                "url": "htpp:\\www.seksuelevorming.be",
+                                "url": "htpp://www.seksuelevorming.be",
                                 "beschrijving": "zoek op (N)iets mis mee"
                         }
                         ]
@@ -706,7 +1384,7 @@
                         "titel": "Bij vermoeden van misbruik of mishandeling",
                         "links": [{
                                 "titel": "www.kindermishandeling.be",
-                                "url": "http:\\www.kindermishandeling.be"
+                                "url": "http://www.kindermishandeling.be"
                         }
                         ]
                     },
@@ -715,17 +1393,17 @@
                         "titel": "Over voedselveiligheid",
                         "links": [{
                                 "titel": "www.kokenopkamp.be/voedselveiligheid",
-                                "url": "http:\\www.kokenopkamp.be/voedselveiligheid"
+                                "url": "http://www.kokenopkamp.be/voedselveiligheid"
                         },
                             {
                                 "titel": "www.scoutsengidsenvlaanderen.be",
-                                "url": "http:\\scoutsengidsenvlaanderen.be",
+                                "url": "http://scoutsengidsenvlaanderen.be",
                                 "beschrijving": "brochure Bederf je kamp niet, zoek op ‘bederf’"
                         }
                         ]
                     }
                 ]
             }
-    }
-]
+        }
+    ]
 }
