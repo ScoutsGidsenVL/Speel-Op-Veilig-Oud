@@ -9,16 +9,16 @@ import { DataService } from './services/data.service'
 })
 export class FaqPage implements OnInit {
   private filter = new Array('kapoenen-zeehondjes', 'kabouters-welpen', 'jonggidsen-verkenners-scheepsmakkers', 'gidsen-verkenners', 'jins-loodsen');
-  private vragen;
+  private questions;
   constructor( private dataService: DataService) {
-      
   }
 
   ngOnInit() {
-      this.vragen = this.dataService.haalAlleVragenOp();
+      console.log(this.dataService.getAllQuestions());
+      this.questions = this.dataService.getAllQuestions();
   }
     
-    filterTakken($event){
+    filterGroups($event){
         if($event.detail.value.length == 0 ){
             this.filter = new Array('kapoenen-zeehondjes', 'kabouters-welpen', 'jonggidsen-verkenners-scheepsmakkers', 'gidsen-verkenners', 'jins-loodsen')
         } else {
@@ -26,10 +26,10 @@ export class FaqPage implements OnInit {
         }
     }
     
-    isVoorTak(antwoord){
-        if (this.filter.find(f => f == antwoord.tak)){
-            return true;
+    checkGroupFilter(answer) {
+        if (this.filter.find(f => f == answer.group)){
+                return true;
+            }
+            return false;
         }
-        return false;
-    }
 }

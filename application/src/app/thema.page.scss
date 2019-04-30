@@ -1,15 +1,94 @@
-.wet {
-    color: var(--ion-color-danger);
+.chapter {
+    h1 {
+        font-family: var(--font-title);
+        letter-spacing: 1px;
+        color: var(--ion-color-dark);
+        font-size: 2.2rem;
+        font-weight: normal;
+        text-transform: uppercase;
+        clear: both;
+        padding-left: 40px;
+        margin-top: 10px;
+    }
+
+    h2 {
+        font-family: var(--font-title);
+        letter-spacing: 1px;
+        color: var(--ion-color-secondary);
+        font-size: 1.8rem;
+        font-weight: normal;
+        clear: both;
+        padding-left: 40px;
+        margin-top: 10px;
+    }
+
+    .wet {
+        color: var(--ion-color-danger);
+    }
+
+    .regel {
+        color: var(--ion-color-warning);
+    }
+
+    .richtlijn {
+        color: var(--ion-color-tertiary);
+    }
+
+    .suggestie {
+        color: var(--ion-color-primary);
+    }
+
 }
 
-.regel {
-    color: var(--ion-color-warning);
+.more-info {
+    clear: both;
+
+    h2 {
+        font-family: var(--font-title);
+        letter-spacing: 1px;
+        color: var(--ion-color-secondary);
+        font-size: 1.8rem;
+        font-weight: normal;
+        clear: both;
+        padding-left: 40px;
+        margin-top: 10px;
+    }
 }
 
-.richtlijn {
-    color: var(--ion-color-tertiary);
+ul {
+    color: var(--color);
+    font-family: var(--ion-font-family, inherit);
+
+    padding-left: 0px;
+
+    li {
+        font-size: 1.2rem;
+        padding-bottom: 1rem;
+        list-style-type: none;
+        clear: both;
+        padding-bottom: 5px;
+
+        div {
+            display: inline-block;
+            float: right;
+            width: calc(100% - 40px);
+            margin-bottom: 10px;
+        }
+
+        [class^="icon-speel-op-veilig"],
+        [class*=" icon-speel-op-veilig"] {
+            float: left;
+            width: 40px;
+            margin-bottom: 10px;
+            color: var(--ion-color-secondary);
+        }
+    }
 }
 
-.suggestie {
-    color: var(--ion-color-primary);
+.sublist {
+    margin-left: 20px;
+
+    li {
+        list-style-type: circle;
+    }
 }

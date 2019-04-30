@@ -3,41 +3,45 @@
         <ion-buttons slot="start">
             <ion-back-button defaultHref="home"></ion-back-button>
         </ion-buttons>
-        <ion-title>{{ thema.titel }}</ion-title>
+        <ion-title>{{ chapter.title }}</ion-title>
     </ion-toolbar>
 </ion-header>
 
 <ion-content padding>
-    <div *ngFor="let st of thema.subthemas">
-        <div >{{ st.titel }}</div>
-        <ion-card *ngFor="let od of st.inhoud">
-            <ion-card-header>
-                <ion-card-title [ngClass]="{'wet': od.type=='wet','regel': od.type=='regel', 'richtlijn': od.type=='richtlijn', 'suggestie': od.type=='suggestie'  }">{{ od.titel }} {{ od.type }}</ion-card-title>
-            </ion-card-header>
-            <ion-card-content>
-                <p [innerHTML]="od.tekst"></p>
-                <ul>
-                    <li *ngFor="let regel of od.lijst">{{ regel }}</li>
-                </ul>
-            </ion-card-content>
-        </ion-card>
-    </div>
-    <ion-card>
-            <ion-card-header>
-                <ion-card-title>{{ thema.meerInfo.titel }}</ion-card-title>
-            </ion-card-header>
-            <ion-card-content>
-                <ul>
-                    <li *ngFor="let lijstitem of thema.meerInfo.lijst">
-                        <ul>{{ lijstitem.titel }}
-                            <li *ngFor="let link of lijstitem.links">
-                                <a href="link.url">{{ link.titel }}</a>
-                                {{ link.beschrijving }}
-                            </li>
+    <section *ngFor="let subchapter of chapter.subchapters"  class="chapter">
+        <h1 *ngIf="subchapter.title && subchapter.content">{{ subchapter.title }}</h1>
+        <article *ngFor="let content of subchapter.content" class="subchapter">
+            <h2 [ngClass]="{'wet': content.type=='wet','regel': content.type=='regel', 'richtlijn': content.type=='richtlijn', 'suggestie': content.type=='suggestie'  }">{{ content.title }}</h2>
+            <ul>
+                <li *ngFor="let item of content.list" class="clearfix" >
+                    <div [ngClass]="{'icon-speel-op-veilig-wet-color': content.type=='wet','icon-speel-op-veilig-regel-color': content.type=='regel', 'icon-speel-op-veilig-richtlijn-color': content.type=='richtlijn', 'icon-speel-op-veilig-suggestie-color': content.type=='suggestie'  }"></div>
+                    <div *ngIf="item.title">
+                        <span [innerHTML]="item.title "></span>
+                        <ul *ngFor="let subitem of item.items" class="sublist" >
+                            <li [innerHTML]="subitem"></li>
                         </ul>
-                    
-                    </li>
-                </ul>
-            </ion-card-content>
-        </ion-card>
+                    </div>
+                    <div *ngIf="!item.title" [innerHTML]="item">
+                    </div>
+                </li>
+            </ul>
+        </article>
+    </section>
+    <section class="more-info">
+        <h2>{{ chapter.moreInfo.title }}</h2>
+        <ul>
+            <li *ngFor="let item of chapter.moreInfo.list" >
+                <div class="icon-speel-op-veilig-{{ chapter.url }}"></div>
+                <div>
+                    <ul>
+                        <li *ngFor="let link of item.links">
+                            <a href="link.url">{{ link.title }}</a>
+                            {{ link.description }}
+                        </li>
+                    </ul>
+                </div>
+                
+            </li>
+        </ul>
+    </section>
 </ion-content>

@@ -8,13 +8,12 @@ import { DataService } from './services/data.service'
   styleUrls: ['./thema.page.scss'],
 })
 export class ThemaPage implements OnInit {
-  private thema;
+  private chapter;
   constructor(private route: ActivatedRoute, private dataService: DataService) { }
 
   ngOnInit() {
-    let titel = this.route.snapshot.paramMap.get('titel');
-    this.thema = this.dataService.haalThemaOpMetTitel(titel);
-    console.log(this.thema);
+    let title = this.route.snapshot.paramMap.get('title');
+    this.chapter = this.dataService.getchapterBytitle(title);
   }
 
 }

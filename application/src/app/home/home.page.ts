@@ -31,11 +31,11 @@ export class HomePage {
         },
       ];
 
-    public themas;    
+    public chapters;    
     
     constructor(private dataService: DataService) { }
    
     ngOnInit() {
-        this.themas = this.dataService.haalThemasOp();
+        this.chapters = this.dataService.getAllChapters();
     }
 }

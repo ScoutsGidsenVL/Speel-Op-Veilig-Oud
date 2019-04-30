@@ -11,9 +11,9 @@
         <ion-list-header>
             <ion-label>Thema's</ion-label>
         </ion-list-header>
-        <ion-item *ngFor="let t of themas">
-            <ion-label [routerDirection]="'root'" [routerLink]="['/thema/', t.url]">
-                {{ t.titel }}
+        <ion-item *ngFor="let chapter of chapters">
+            <ion-label [routerDirection]="'root'" [routerLink]="['/thema/', chapter.url]" class="icon-speel-op-veilig-{{ chapter.url }}">
+                {{ chapter.title }}
             </ion-label>
         </ion-item>
     </ion-list>
@@ -21,9 +21,9 @@
         <ion-list-header>
             <ion-label>Bijkomende info</ion-label>
         </ion-list-header>
-        <ion-item *ngFor="let p of staticPages" [routerDirection]="'root'" [routerLink]="[p.url]">
+        <ion-item *ngFor="let page of staticPages" [routerDirection]="'root'" [routerLink]="[page.url]">
             <ion-label>
-                {{ p.title }}
+                {{ page.title }}
             </ion-label>
         </ion-item>
     </ion-list>
