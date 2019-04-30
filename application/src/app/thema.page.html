@@ -35,7 +35,7 @@
                 <div>
                     <ul>
                         <li *ngFor="let link of item.links">
-                            <a href="link.url">{{ link.title }}</a>
+                            <a href="{{ link.url }}">{{ link.title }}</a>
                             {{ link.description }}
                         </li>
                     </ul>
