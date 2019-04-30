@@ -492,7 +492,7 @@ export class DataService {
                                 "Bij beperkte zichtbaarheid dragen alle leden en leiding die tijdens activiteiten op de weg komen fluohesjes.",
                                 "Loop nooit langs of over sporen.",
                                 {
-                                    "description": "Leden mogen nooit liften. Leid(st)ers mogen liften als ze aan alle onderstaande voorwaarden voldoen:",
+                                    "title": "Leden mogen nooit liften. Leid(st)ers mogen liften als ze aan alle onderstaande voorwaarden voldoen:",
                                     "items": [
                                         "minstens per twee;",
                                         "evenwichtig verdeeld (zowel onervaren als ervaren leiding, assertief en voorzichtig);",
