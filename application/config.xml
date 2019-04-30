@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="G7L3KXKBFR.be.scoutsengidsenvlaanderen.speelopveilig" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="be.scoutsengidsenvlaanderen.speelopveilig" version="1.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>Speel op veilig</name>
     <description>Speel op veilig van Scouts en Gidsen Vlaanderen</description>
     <author email="informatica@scoutsengidsenvlaanderen.be" href="https://scoutsengidsenvlaandeen.be/">Scouts en Gidsen Vlaanderen</author>
