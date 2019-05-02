@@ -8,19 +8,22 @@
 </ion-header>
 
 <ion-content padding>
-    Filter op zaken voor:
-    <ion-item>
+    <ion-item id="filter">
+        <p>Filter op tak:</p>
         <ion-select multiple="true" cancelText="Annuleer" okText="Filter" (ionChange)="filterGroups($event)">
             <ion-select-option  *ngFor="let f of filterArr" value="{{ f }}">{{ originalFilter[f] }}</ion-select-option>
         </ion-select>
     </ion-item>
+    
+    
+        
     <section *ngFor="let chapter of questions">
         <h1><span class="icon-speel-op-veilig-{{ chapter.icon }}-color"></span> {{ chapter.title }}</h1>
         <div *ngFor="let question of chapter.content">
             <h2>{{ question.question }} <span class="icon-speel-op-veilig-regel" *ngIf="question.type == regel" > Regel</span></h2>
             <div *ngFor="let answer of question.answers" >
                 <div *ngIf="checkGroupFilter(answer)">
-                    <p> <span *ngIf="countKeysInFilter() > 1">{{ originalFilter[answer.group] }}</span><br *ngIf="countKeysInFilter() > 1"><i>{{ answer.answer }}</i> </p>
+                    <p class="answer"> <span *ngIf="countKeysInFilter() > 1">{{ originalFilter[answer.group] }}:</span><br *ngIf="countKeysInFilter() > 1"><i>{{ answer.answer }}</i> </p>
                     
                 </div>
             </div>
