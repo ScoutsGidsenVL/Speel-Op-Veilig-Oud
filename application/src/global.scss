@@ -127,32 +127,40 @@ ion-header {
         } 
     } 
 }
-ion-card-header {
-    padding-bottom: 0px;
-}
-ion-card-title {
-    font-family: var(--font-title);
-    letter-spacing: 1px;
-    color: var(--ion-color-secondary);
-    font-size: 1.8rem;
-    font-weight: normal;
-    text-transform: uppercase;
-}
-.card-content{
-    padding-top: 0.4rem;
-    p {
-        font-size: 1.2rem;
+
+
+article {
+    margin-bottom: 25px;
+    h1 {
+        font-family: var(--font-title);
+        letter-spacing: 1px;
+        color: var(--ion-color-primary);
+        font-size: 1.8rem;
+        font-weight: normal;
+        clear: both;
+        display: inline-block;
+        margin-top: 0px;
+        margin-bottom: 0px;
     }
-    ul {
-        padding-left: 0px;
-        li {
-            font-size: 1.2rem;
-            padding-bottom: 1rem;
-            list-style-type: none;
-        }
+    .wet {
+        color: var(--ion-color-danger);
     }
 
+    .regel {
+        color: var(--ion-color-warning);
+    }
+
+    .richtlijn {
+        color: var(--ion-color-tertiary);
+    }
+
+    .suggestie {
+        color: var(--ion-color-primary);
+    }
+    
 }
+
+
 
 ion-list {
     ion-label {

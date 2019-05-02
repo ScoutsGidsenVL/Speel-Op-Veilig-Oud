@@ -1,4 +1,6 @@
 .chapter {
+    display: inline-block;
+    margin-bottom: 25px;
     h1 {
         font-family: var(--font-title);
         letter-spacing: 1px;
@@ -8,38 +10,24 @@
         text-transform: uppercase;
         clear: both;
         padding-left: 40px;
-        margin-top: 10px;
+        margin-top: 0px;
     }
-
-    h2 {
+     h2 {
         font-family: var(--font-title);
         letter-spacing: 1px;
-        color: var(--ion-color-secondary);
         font-size: 1.8rem;
         font-weight: normal;
         clear: both;
         padding-left: 40px;
-        margin-top: 10px;
+        display: inline-block;
+        margin-top: 0px;
+        margin-bottom: 0px;
     }
-
-    .wet {
-        color: var(--ion-color-danger);
+    .subchapter {
+        display: inline-block;
+        margin-bottom: 25px;
     }
-
-    .regel {
-        color: var(--ion-color-warning);
-    }
-
-    .richtlijn {
-        color: var(--ion-color-tertiary);
-    }
-
-    .suggestie {
-        color: var(--ion-color-primary);
-    }
-
 }
-
 .more-info {
     clear: both;
 
@@ -51,15 +39,18 @@
         font-weight: normal;
         clear: both;
         padding-left: 40px;
-        margin-top: 10px;
+        display: inline-block;
+        margin-top: 25px;
     }
 }
 
 ul {
     color: var(--color);
     font-family: var(--ion-font-family, inherit);
-
     padding-left: 0px;
+    display: inline-block;
+    margin-bottom: 0px;
+    margin-top: 0px;
 
     li {
         font-size: 1.2rem;
@@ -72,14 +63,14 @@ ul {
             display: inline-block;
             float: right;
             width: calc(100% - 40px);
-            margin-bottom: 10px;
+            margin-bottom: 5px;
         }
 
         [class^="icon-speel-op-veilig"],
         [class*=" icon-speel-op-veilig"] {
             float: left;
             width: 40px;
-            margin-bottom: 10px;
+            margin-bottom: 5px;
             color: var(--ion-color-secondary);
         }
     }
@@ -89,6 +80,12 @@ ul {
     margin-left: 20px;
 
     li {
-        list-style-type: circle;
+        list-style-type: none;
+        
+        &:before {
+            content: "\2014\a0";
+            margin-left: -24px;
+            display: inline-block;
+        }
     }
 }

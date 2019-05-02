@@ -8,28 +8,54 @@ import { DataService } from './services/data.service'
   styleUrls: ['./faq.page.scss'],
 })
 export class FaqPage implements OnInit {
-  private filter = new Array('kapoenen-zeehondjes', 'kabouters-welpen', 'jonggidsen-verkenners-scheepsmakkers', 'gidsen-verkenners', 'jins-loodsen');
+  private originalFilter = {"kapoenen-zeehondjes": "Kapoenen en zeehondjes",
+        "kabouters-welpen": "Kabouters en (zee)welpen",
+        "jonggidsen-verkenners-scheepsmakkers": "Jonggidsen, verkenners en scheepsmakkers",
+        "gidsen-verkenners": "Gidsen en (zee)verkenners", 
+        "jins-loodsen":"Jins en loodsen",
+        "open-kamp": "Open kamp",
+        "akabe": "Akabe",
+        "leiding":"leiding"};
+  private filterArr = new Array(
+        "kapoenen-zeehondjes",
+        "kabouters-welpen",
+        "jonggidsen-verkenners-scheepsmakkers",
+        "gidsen-verkenners", 
+        "jins-loodsen",
+        "open-kamp",
+        "akabe",
+        "leiding");
+  private filter;
   private questions;
   constructor( private dataService: DataService) {
   }
 
   ngOnInit() {
-      console.log(this.dataService.getAllQuestions());
       this.questions = this.dataService.getAllQuestions();
+      this.filter = this.originalFilter;
   }
     
     filterGroups($event){
+        console.log($event.detail.value);
         if($event.detail.value.length == 0 ){
-            this.filter = new Array('kapoenen-zeehondjes', 'kabouters-welpen', 'jonggidsen-verkenners-scheepsmakkers', 'gidsen-verkenners', 'jins-loodsen')
+            this.filter = this.originalFilter;
         } else {
-            this.filter = $event.detail.value;
+            //clear filter 
+            this.filter = {};
+            $event.detail.value.forEach( value => {
+                this.filter[value] = this.originalFilter[value];
+            })
+            console.log(this.filter);
         }
     }
     
     checkGroupFilter(answer) {
-        if (this.filter.find(f => f == answer.group)){
+            if (this.filter[answer.group] != undefined) {
                 return true;
             }
             return false;
         }
+    countKeysInFilter() {
+        return Object.keys(this.filter).length;
+    }
 }

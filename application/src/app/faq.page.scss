@@ -1,12 +1,56 @@
-:root { 
-    .card-content-ios{
-         h1 {
-            font-family: var(--font-titel);
-            letter-spacing: 1px;
-            color: var(--ion-color-danger);
-            font-size: 1.4rem;
-            font-weight: normal;
-            text-transform: uppercase;
+h1 {
+    font-family: var(--font-title);
+    letter-spacing: 1px;
+    color: var(--ion-color-dark);
+    font-size: 2.2rem;
+    font-weight: normal;
+    text-transform: uppercase;
+    clear: both;
+}
+h2 {
+    color: var(--ion-color-primary);
+    
+    span {
+        display: inline-block;
+        background-color: var(--ion-color-warning);
+        color: #ffffff;
+        font-size: 0.8rem;
+        font-family: var(--ion-font-family);
+        padding: 4px;
+        vertical-align: top;
+        border-radius: 5px;
+            
+        &:before {
+            margin-right: 2px;
+            font-size: 0.7rem;
+        }  
+    }
+    
+}
+
+
+ion-card-header {
+    padding-bottom: 0px;
+}
+ion-card-title {
+    font-family: var(--font-title);
+    letter-spacing: 1px;
+    color: var(--ion-color-secondary);
+    font-weight: normal;
+    text-transform: uppercase;
+}
+.card-content{
+    padding-top: 0.4rem;
+    p {
+        font-size: 1.2rem;
+    }
+    ul {
+        padding-left: 0px;
+        li {
+            font-size: 1.2rem;
+            padding-bottom: 1rem;
+            list-style-type: none;
         }
     }
+
 }
