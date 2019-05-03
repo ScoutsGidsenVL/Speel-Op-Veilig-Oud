@@ -178,4 +178,17 @@ ion-list {
     }
 }
 
+ion-back-button {
+    button {
+        span {
+            ion-icon {
+                color: var(--ion-color-primary);
+            }
+            .button-text {
+                color: var(--ion-color-primary);
+            }
+        }
+    }
+}
+
 
