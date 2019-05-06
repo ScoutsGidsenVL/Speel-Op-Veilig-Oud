@@ -16,7 +16,15 @@
 
 @font-face {
 	font-family: 'DCCAsh';
-	src:  url(./assets/fonts/DCC_Ash/DCC-Ash.otf) format("opentype");
+    src: url(./assets/fonts/DCC_Ash/dccash-webfont.eot);
+    src:
+        url(./assets/fonts/DCC_Ash/dccash-webfont.eot) format('embedded-opentype'),
+        url(./assets/fonts/DCC_Ash/dccash-webfont.woff2) format('woff2'),
+        url(./assets/fonts/DCC_Ash/dccash-webfont.woff) format('woff'),
+        url(./assets/fonts/DCC_Ash/dccash-webfont.ttf) format('truetype'),
+        url(./assets/fonts/DCC_Ash/dccash-webfont.svg) format('svg');
+    font-weight: normal;
+    font-style: normal;
 }
 @font-face {
 	font-family: 'Alfa Slab One';
