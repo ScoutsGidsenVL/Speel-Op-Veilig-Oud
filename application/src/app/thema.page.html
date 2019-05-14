@@ -22,7 +22,9 @@
                             <li [innerHTML]="subitem"></li>
                         </ul>
                     </div>
-                    <div *ngIf="!item.title" [innerHTML]="item">
+                    <div *ngIf="!item.title" >
+                        <p [innerHTML]="item.item"></p>
+                        <ion-icon *ngIf="item.why" name="help" (click)="presentAlert(item.why)"></ion-icon>
                     </div>
                 </li>
             </ul>

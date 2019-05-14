@@ -82,7 +82,7 @@
       "cordova-plugin-ionic-keyboard": {},
       "mx.ferreyra.callnumber": {},
       "cordova-plugin-inappbrowser": {},
-      "call-number": {},
+      "call-number": {}
     },
     "platforms": [
       "android",
