@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
+import { Router } from '@angular/router';
 import { DataService } from './services/data.service';
 import { AlertController } from '@ionic/angular';
 
@@ -10,11 +11,14 @@ import { AlertController } from '@ionic/angular';
 })
 export class ThemaPage implements OnInit {
   private chapter;
-  constructor(private route: ActivatedRoute, private dataService: DataService, public alertController: AlertController) { }
+  constructor(private route: ActivatedRoute, private router: Router, private dataService: DataService, public alertController: AlertController) { }
 
   ngOnInit() {
     let title = this.route.snapshot.paramMap.get('title');
     this.chapter = this.dataService.getchapterBytitle(title);
+    if (this.chapter == undefined) {
+        this.router.navigateByUrl('/home');
+    }
   }
   
   async presentAlert(why) {

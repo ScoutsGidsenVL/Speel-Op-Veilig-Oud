@@ -8,9 +8,10 @@ const routes: Routes = [
   { path: 'crisis-en-noodsituaties', loadChildren: './static/noodsituatie.module#NoodsituatiePageModule' },
   { path: 'veilige-activiteit', loadChildren: './static/activiteit.module#ActiviteitPageModule' },
   { path: 'verzekeringen-en-aansprakelijkheid', loadChildren: './static/verzekeringen.module#VerzekeringenPageModule' },
-  { path: 'thema/:title', loadChildren: './thema.module#ThemaPageModule' },
+  { path: 'themas/:title', loadChildren: './thema.module#ThemaPageModule' },
   { path: 'intro', loadChildren: './intro.module#IntroPageModule' },
   { path: 'vragen-en-antwoorden', loadChildren: './faq.module#FaqPageModule' },
+  { path: '**', redirectTo: 'home'}
 ];
 
 @NgModule({

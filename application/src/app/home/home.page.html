@@ -12,7 +12,7 @@
             <ion-label>Thema's</ion-label>
         </ion-list-header>
         <ion-item *ngFor="let chapter of chapters">
-            <ion-label [routerDirection]="'root'" [routerLink]="['/thema/', chapter.url]" class="icon-speel-op-veilig-{{ chapter.url }}">
+            <ion-label [routerDirection]="'root'" [routerLink]="['/themas/', chapter.url]" class="icon-speel-op-veilig-{{ chapter.url }}">
                 {{ chapter.title }}
             </ion-label>
         </ion-item>
