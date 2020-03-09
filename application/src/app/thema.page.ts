@@ -27,4 +27,17 @@ export class ThemaPage implements OnInit {
     await alert.present();
   }
 
+  lastLetter(name: any) {
+   if(name!= undefined){
+    return name.charAt(name.length -1);
+   }
+  }
+  subitemAndWhy(item, why){
+   
+    if(why != undefined){
+      console.log( item + '<ion-icon name="help-circle" (click)="presentAlert('+why+')"></ion-icon>')
+      return item + '<ion-icon name="help-circle" (click)="presentAlert('+why+')"></ion-icon>'
+    }
+    return item
+  }
 }

@@ -14,37 +14,52 @@
             <h2 [ngClass]="{'wet': content.type=='wet','regel': content.type=='regel', 'richtlijn': content.type=='richtlijn', 'suggestie': content.type=='suggestie'  }">{{ content.title }}</h2>
             <p *ngIf="content.description">{{ content.description }}</p>
             <ul>
+
                 <li *ngFor="let item of content.list" class="clearfix" >
-                    <div [ngClass]="{'icon-speel-op-veilig-wet-color': content.type=='wet','icon-speel-op-veilig-regel-color': content.type=='regel', 'icon-speel-op-veilig-richtlijn-color': content.type=='richtlijn', 'icon-speel-op-veilig-suggestie-color': content.type=='suggestie'  }"></div>
-                    <div *ngIf="item.title">
-                        <span [innerHTML]="item.title "></span>
-                        <ul *ngFor="let subitem of item.items" class="sublist" >
-                            <li [innerHTML]="subitem"></li>
-                        </ul>
+                    <div *ngIf="item.title ; else show" >
+                        <span [ngClass]="{'subtitle': content.title == 'Wet over voetgangers'}" [innerHTML]="item.title "></span>
+                      
+                        <div *ngIf="item.title">
+                           
+                            <ul *ngFor="let subitem of item.items" class="sublist" >
+                                <li>
+                                    <p [ngClass]="{'icon-speel-op-veilig-wet-color': content.type=='wet','icon-speel-op-veilig-regel-color': content.type=='regel', 'icon-speel-op-veilig-richtlijn-color': content.type=='richtlijn', 'icon-speel-op-veilig-suggestie-color': content.type=='suggestie'  }" [innerHTML]="subitem.item"></p>
+                                    <ion-icon *ngIf="subitem.why" name="help-circle" (click)="presentAlert(subitem.why)"></ion-icon>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
+                    <ng-template #show>
+                        
                     <div *ngIf="!item.title" >
-                        <p [innerHTML]="item.item"></p>
-                        <ion-icon *ngIf="item.why" name="help" (click)="presentAlert(item.why)"></ion-icon>
+                        <p [ngClass]="{'icon-speel-op-veilig-wet-color': content.type=='wet','icon-speel-op-veilig-regel-color': content.type=='regel', 'icon-speel-op-veilig-richtlijn-color': content.type=='richtlijn', 'icon-speel-op-veilig-suggestie-color': content.type=='suggestie'  }" [innerHTML]="item.item"></p>
+                        <ion-icon *ngIf="item.why" name="help-circle" (click)="presentAlert(item.why)"></ion-icon>
                     </div>
+                    </ng-template>
                 </li>
             </ul>
         </article>
     </section>
+
     <section class="more-info">
         <h2>{{ chapter.moreInfo.title }}</h2>
         <ul>
             <li *ngFor="let item of chapter.moreInfo.list" >
-                <div class="icon-speel-op-veilig-{{ chapter.url }}"></div>
+                <div></div>
                 <div>
-                    <ul>
-                        <li *ngFor="let link of item.links">
+                    <div class="icon-speel-op-veilig-{{ chapter.url }} meer-info">
+                        {{item.title}}: 
+                        <span   *ngFor="let link of item.links;let last = last;">
                             <a href="{{ link.url }}">{{ link.title }}</a>
                             {{ link.description }}
-                        </li>
-                    </ul>
+                            <span *ngIf="!last">, </span>
+                            <span *ngIf="last && lastLetter( link.description) !='.'">.</span>
+                        </span>
+                    </div>
                 </div>
                 
             </li>
+
         </ul>
     </section>
 </ion-content>

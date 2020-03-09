@@ -607,9 +607,8 @@ export class DataService {
                     {
                         "title": "Over speelterreinen en wetgeving",
                         "links": [{
-                                "title": "scoutsengidsenvlaanderen.be",
-                                "url": "http:\\scoutsengidsenvlaanderen.be",
-                                "description": "zoek op ‘speeltoestellen’"
+                                "title": "scoutsengidsenvlaanderen.be/speeltoestellen",
+                                "url": "http:\\scoutsengidsenvlaanderen.be/speeltoestellen"
                             }
                         ]
                     },
@@ -617,7 +616,9 @@ export class DataService {
                         "title": "Over veilig gebruik en onderhoud van materiaal",
                         "links": [
                             {
-                                "description": "het Buitenboek, te koop in Hopper Winkel en www.scoutsengidsenvlaanderen.be/technieken-databank"
+                                "title": "scoutsengidsenvlaanderen.be/technieken-databank",
+                                "url": "http:\\scoutsengidsenvlaanderen.be/technieken-databank",
+                                "description": "en het Buitenboek, te koop in Hopper Winkel"
                             }
                         ]
                     }
@@ -1502,13 +1503,13 @@ export class DataService {
                             "type": "wet",
                             "list": [
                                 {
-                                    "items": "De wetgeving over het welzijn van kinderen en minderjarigen is uitgebreid en er zijn geen specifieke regels voor het jeugdwerk. Het Internationaal Verdrag Inzake de Rechten van het Kind is wel belangrijk voor ons. Zo heeft een kind bijvoorbeeld recht op anders zijn, een eigen mening, privacy en bescherming tegen geweld." 
+                                    "item": "De wetgeving over het welzijn van kinderen en minderjarigen is uitgebreid en er zijn geen specifieke regels voor het jeugdwerk. Het Internationaal Verdrag Inzake de Rechten van het Kind is wel belangrijk voor ons. Zo heeft een kind bijvoorbeeld recht op anders zijn, een eigen mening, privacy en bescherming tegen geweld." 
                                 },
                                 {
-                                    "items": "<b>Vanaf 16 jaar is seksueel contact wettelijk toegestaan.</b> Vanaf 14 jaar kan je toestemming geven tot seksueel contact als het leeftijdsverschil maximaal 5 jaar is en er geen machtsrelatie is. Seks met iemand jonger dan 14 jaar wordt beschouwd als verkrachting. Seksueel misbruik is verboden. Er is sprake van seksueel misbruik, als iemand “een beleving van seksualiteit opdringt aan een ander en iemand onder druk zet en gebruikt omwille van de eigen genotsbeleving”."
+                                    "item": "<b>Vanaf 16 jaar is seksueel contact wettelijk toegestaan.</b> Vanaf 14 jaar kan je toestemming geven tot seksueel contact als het leeftijdsverschil maximaal 5 jaar is en er geen machtsrelatie is. Seks met iemand jonger dan 14 jaar wordt beschouwd als verkrachting. Seksueel misbruik is verboden. Er is sprake van seksueel misbruik, als iemand “een beleving van seksualiteit opdringt aan een ander en iemand onder druk zet en gebruikt omwille van de eigen genotsbeleving”."
                                 },
                                 {
-                                    "items": "<b>Enkel ouders en artsen mogen vrij verkrijgbare medicatie geven aan minderjarigen.</b> Ouders kunnen die toestemming overdragen, bijvoorbeeld via de individuele steekkaart. Voor medicatie op voorschrift is een schriftelijke verklaring van een arts noodzakelijk."
+                                    "item": "<b>Enkel ouders en artsen mogen vrij verkrijgbare medicatie geven aan minderjarigen.</b> Ouders kunnen die toestemming overdragen, bijvoorbeeld via de individuele steekkaart. Voor medicatie op voorschrift is een schriftelijke verklaring van een arts noodzakelijk."
                                 }
                             ]
                         },
@@ -1517,17 +1518,17 @@ export class DataService {
                             "type": "regel",
                             "list": [
                                 {
-                                    "items":  "Leden zijn minstens 6 jaar vóór 1 januari van het lopende scoutsjaar of zitten in het eerste leerjaar. Takleiding is minstens 18 jaar of bereikt die leeftijd in de loop van het scoutsjaar. Groepsleiding is minimum 21 jaar."
+                                    "item":  "Leden zijn minstens 6 jaar vóór 1 januari van het lopende scoutsjaar of zitten in het eerste leerjaar. Takleiding is minstens 18 jaar of bereikt die leeftijd in de loop van het scoutsjaar. Groepsleiding is minimum 21 jaar."
                                 },
                                 {
-                                    "items": "Op elk kamp is minstens één 21-jarige aanwezig."
+                                    "item": "Op elk kamp is minstens één 21-jarige aanwezig."
                                 },
                                 {
-                                    "items": "Realistische schrikaanjagende activiteiten, zoals een ontvoering, waarbij kinderen niet kunnen inschatten of iets waar is, zijn bij Scouts en Gidsen Vlaanderen verboden.",
+                                    "item": "Realistische schrikaanjagende activiteiten, zoals een ontvoering, waarbij kinderen niet kunnen inschatten of iets waar is, zijn bij Scouts en Gidsen Vlaanderen verboden.",
                                     "why": "Dit soort activiteiten kan traumatisch zijn, ook op lange termijn. Bovendien kunnen mensen heel impulsief reageren als ze denken dat ze in gevaar zijn."
                                 },
                                 {
-                                    "items": "Machtsmisbruik, vernedering en pesterijen maken geen deel uit van onze werking. Heb oog voor signalen en grijp in bij meldingen die er op kunnen wijzen dat persoonlijke grenzen worden of werden overschreden.",
+                                    "item": "Machtsmisbruik, vernedering en pesterijen maken geen deel uit van onze werking. Heb oog voor signalen en grijp in bij meldingen die er op kunnen wijzen dat persoonlijke grenzen worden of werden overschreden.",
                                     "why": "Pesterijen kunnen ingrijpende en langdurige gevolgen hebben op iemands zelfbeeld."
                                 }
                             ]
@@ -1537,17 +1538,17 @@ export class DataService {
                             "type": "ichtlijn",
                             "list": [
                                 {
-                                    "items": "Zorg voor spannende en uitdagende activiteiten zonder dat leden werkelijk bang worden. Kinderen moeten neen kunnen zeggen en die keuze moet gerespecteerd worden, ook bij rituelen die al lang meegaan.",
+                                    "item": "Zorg voor spannende en uitdagende activiteiten zonder dat leden werkelijk bang worden. Kinderen moeten neen kunnen zeggen en die keuze moet gerespecteerd worden, ook bij rituelen die al lang meegaan.",
                                     "why": "Sommige ervaringen liggen heel dicht bij traumatische / schokkende gebeurtenissen die kinderen meegemaakt hebben."
                                 },
                                 {
-                                    "items": "Heb oog voor groepsdruk. Geef het goede voorbeeld en grijp in waar nodig"
+                                    "item": "Heb oog voor groepsdruk. Geef het goede voorbeeld en grijp in waar nodig"
                                 },
                                 {
-                                    "items": "Wat het aantal dagen op kamp betreft, volg de richtlijn per tak."
+                                    "item": "Wat het aantal dagen op kamp betreft, volg de richtlijn per tak."
                                 },
                                 {
-                                    "items": "Wees attent voor symptomen van ziekte, voorzie een goed ingerichte ziekenruimte die niet te ver ligt van de rest van de groep en aarzel nooit om een dokter te raadplegen."
+                                    "item": "Wees attent voor symptomen van ziekte, voorzie een goed ingerichte ziekenruimte die niet te ver ligt van de rest van de groep en aarzel nooit om een dokter te raadplegen."
                                 }
                             ]
                         },
@@ -1556,14 +1557,14 @@ export class DataService {
                             "type": "suggestie",
                             "list": [
                                 {
-                                    "items": "Vermoeidheid brengt risico’s met zich mee. Kinderen onderde 12 jaar hebben gemiddeld 9 tot 10 uur slaap nodig, oudere leden ongeveer 8 uur. Gun je leden voldoende recuperatietijd na nachtactiviteiten en tochten."
+                                    "item": "Vermoeidheid brengt risico’s met zich mee. Kinderen onderde 12 jaar hebben gemiddeld 9 tot 10 uur slaap nodig, oudere leden ongeveer 8 uur. Gun je leden voldoende recuperatietijd na nachtactiviteiten en tochten."
                                 },
                                 {
-                                    "items": "Kies je voor een kampuur? Zorg er dan voor dat het niet meer dan 1 uur verschilt met het gewone uur.",
+                                    "item": "Kies je voor een kampuur? Zorg er dan voor dat het niet meer dan 1 uur verschilt met het gewone uur.",
                                     "why": "Anders geraakt het bioritme van je leden verstoord."
                                 },
                                 {
-                                    "items": "Leden mogen gemengd slapen, maar niets moet. Forceer niets. Vraag aan de leden wat ze ervan denken."
+                                    "item": "Leden mogen gemengd slapen, maar niets moet. Forceer niets. Vraag aan de leden wat ze ervan denken."
                                 }
                             ]
                         },
@@ -1573,22 +1574,22 @@ export class DataService {
                             "description": "Twijfel je of een bepaalde situatie gepast is? Deze zes criteria helpen je een inschatting te maken. Alle criteria zijn oké? Experimenteer gerust verder. Als dat niet het geval is, grijp je als leiding in.",
                             "list": [
                                 {
-                                    "items": "<b>Toestemming:</b> iedereen is akkoord en voelt zich prettig."
+                                    "item": "<b>Toestemming:</b> iedereen is akkoord en voelt zich prettig."
                                 },
                                 {
-                                    "items": "<b>Vrijwilligheid:</b> geen vorm van druk."
+                                    "item": "<b>Vrijwilligheid:</b> geen vorm van druk."
                                 },
                                 {
-                                    "items": "<b>Gelijkwaardigheid:</b> er is evenwicht op vlak van leeftijd en macht."
+                                    "item": "<b>Gelijkwaardigheid:</b> er is evenwicht op vlak van leeftijd en macht."
                                 },
                                 {
-                                    "items": "<b>Ontwikkeling:</b> het gedrag past bij de leeftijd."
+                                    "item": "<b>Ontwikkeling:</b> het gedrag past bij de leeftijd."
                                 },
                                 {
-                                    "items": "<b>Context:</b> het gedrag past bij de omstandigheden."
+                                    "item": "<b>Context:</b> het gedrag past bij de omstandigheden."
                                 },
                                 {
-                                    "items": "<b>Zelfrespect:</b> de situatie berokkent geen fysieke of emotionele schade."
+                                    "item": "<b>Zelfrespect:</b> de situatie berokkent geen fysieke of emotionele schade."
                                 }
                             ]
 
@@ -1598,25 +1599,25 @@ export class DataService {
                             "type": "suggestie",
                             "list": [
                                 {
-                                    "items": "Gebruik enkel leidingwater of geattesteerd drinkwater om te drinken en koken. Ontsmet bidons en waterslangen chemisch. Informeer je bij de apotheker."
+                                    "item": "Gebruik enkel leidingwater of geattesteerd drinkwater om te drinken en koken. Ontsmet bidons en waterslangen chemisch. Informeer je bij de apotheker."
                                 },
                                 {
-                                    "items": "Zorg dat iedereen zijn handen wast met zeep voor het koken en eten.",
+                                    "item": "Zorg dat iedereen zijn handen wast met zeep voor het koken en eten.",
                                     "why": "Met je handen verspreid je gemakkelijk virussen en bacteriën, omdat je er veel mee aanraakt (toilet, vuilnis(bak), rauw vlees)."
                                 },
                                 {
-                                    "items": "Bewaar bereide gerechten, zuivel, vlees en vis afgesloten en onder de 7°C. Leg het na aankoop zo snel mogelijk in de koelkast.",
+                                    "item": "Bewaar bereide gerechten, zuivel, vlees en vis afgesloten en onder de 7°C. Leg het na aankoop zo snel mogelijk in de koelkast.",
                                     "why": "Bacteriën en schimmels groeien tussen 7°C en 65°C"
                                 },
                                 {
-                                    "items": "Bak vis en vlees, zeker kip en varkensvlees, door en door gaar."
+                                    "item": "Bak vis en vlees, zeker kip en varkensvlees, door en door gaar."
                                 },
                                 {
-                                    "items": "Maak toiletten elke dag schoon. Voorzie genoeg toiletten, toiletpapier en wasplaatsen.",
+                                    "item": "Maak toiletten elke dag schoon. Voorzie genoeg toiletten, toiletpapier en wasplaatsen.",
                                     "why": "Kinderen raken de bril vaak aan met hun handen. Vieze toiletten schrikken kinderen af waardoor ze misschien niet naar het toilet durven gaan."
                                 },
                                 {
-                                    "items": "Controleer dagelijks op teken.",
+                                    "item": "Controleer dagelijks op teken.",
                                     "why": "Teken kunnen de ziekte van Lyme verspreiden."
                                 }
                             ]
@@ -1850,8 +1851,8 @@ export class DataService {
                                 "url": "mailto:info@scoutsengidsenvlaanderen.be"
                         },
                             {
-                                "title": "scoutsengidsenvlaanderen.be",
-                                "url": "http://scoutsengidsenvlaanderen.be"
+                                "title": "scoutsengidsenvlaanderen.be/goed-in-je-vel",
+                                "url": "http://scoutsengidsenvlaanderen.be/goed-in-je-vel"
                         },
                             {
                                 "title": "in de basiswerken van Scouts en Gidsen Vlaanderen: ",
@@ -1901,8 +1902,8 @@ export class DataService {
                                 "url": "http://www.kokenopkamp.be/voedselveiligheid"
                         },
                             {
-                                "title": "scoutsengidsenvlaanderen.be",
-                                "url": "http://scoutsengidsenvlaanderen.be",
+                                "title": "scoutsengidsenvlaanderen.be/voedselveiligheid",
+                                "url": "http://scoutsengidsenvlaanderen.be/voedselveiligheid",
                                 "description": "brochure Bederf je kamp niet, zoek op ‘bederf’"
                         }
                         ]

@@ -9,7 +9,7 @@
         font-weight: normal;
         text-transform: uppercase;
         clear: both;
-        padding-left: 40px;
+        padding-left: 10px;
         margin-top: 0px;
     }
      h2 {
@@ -18,7 +18,7 @@
         font-size: 1.8rem;
         font-weight: normal;
         clear: both;
-        padding-left: 40px;
+        padding-left: 10px;
         display: block;
         margin-top: 0px;
         margin-bottom: 0px;
@@ -38,10 +38,11 @@
         font-size: 1.8rem;
         font-weight: normal;
         clear: both;
-        padding-left: 40px;
+        padding-left: 10px;
         display: block;
         margin-top: 25px;
     }
+    
 }
 
 ul {
@@ -51,42 +52,49 @@ ul {
     display: inline-block;
     margin-bottom: 0px;
     margin-top: 0px;
-
+    width: 100%;
+   
     li {
         font-size: 1.2rem;
         padding-bottom: 1rem;
         list-style-type: none;
         clear: both;
-        padding-bottom: 5px;
 
         div {
             display: inline-block;
             float: right;
-            width: calc(100% - 40px);
-            margin-bottom: 5px;
+            width: calc(100% - 10px);
             word-break: break-word;
+            p{
+                float: left;
+                width: 93%;
+            }
+
         }
 
-        [class^="icon-speel-op-veilig"],
-        [class*=" icon-speel-op-veilig"] {
-            float: left;
-            width: 40px;
-            margin-bottom: 5px;
+        .meer-info {
+            width: 100%;
             color: var(--ion-color-secondary);
         }
     }
 }
-
+ion-icon{
+    color: var(--ion-color-primary);
+    font-size: 20px;
+    float: left;
+}
+.subtitle{
+    color: var(--ion-color-dark);
+    font-weight: bold;
+}
+.meer-info{
+    margin-bottom: 10px;
+}
 .sublist {
-    margin-left: 20px;
-
+    margin-left: 5px;
+    
     li {
         list-style-type: none;
-        
-        &:before {
-            content: "\2014\a0";
-            margin-left: -24px;
-            display: inline-block;
-        }
+        width: 90%;
     }
 }
