@@ -72,7 +72,7 @@ export class DataService {
                                     "why": "Hoge vlammen geven geen langdurige warmte en zijn moeilijk te controleren."
                                 },
                                 {
-                                    "item": "Hou minstens twee meter rondom vrij van brandbare voorwerpen;",
+                                    "item": "Hou minstens twee meter rondom vrij van brandbare voorwerpen.",
                                     "why": "Zo kan het vuur zich niet verspreiden."
                                 },
                                 {
@@ -368,7 +368,7 @@ export class DataService {
                             "type": "wet",
                             "list": [
                                 {
-                                    "item" : "Er is geen specifieke wetgeving over hoogte die van toepassing is op jeugdbewegingen. Hier geldt dus het principe van de goede huisvader en organisatieplicht."
+                                    "item" : "Er is geen specifieke wetgeving over hoogte die van toepassing is op jeugdbewegingen. Hier geldt dus het principe van de goede huisvader en organisatieplicht. <a href='/verzekeringen-en-aansprakelijkheid'>huisvader en organisatieplicht.</a>"
                                 }
                             ]
                     }, {
@@ -710,19 +710,19 @@ export class DataService {
                                     "title": "Leden mogen nooit liften. Leid(st)ers mogen liften als ze aan alle onderstaande voorwaarden voldoen:",
                                     "items": [
                                         {
-                                            "item": "minstens per twee;"
+                                            "item": "minstens per twee."
                                         },
                                         {
-                                            "item": "evenwichtig verdeeld (zowel onervaren als ervaren leiding, assertief en voorzichtig);"
+                                            "item": "evenwichtig verdeeld (zowel onervaren als ervaren leiding, assertief en voorzichtig)."
                                         },
                                         {
-                                            "item": "elkaar op de hoogte houden van plaats, route of gebruikte functie (via sms of app);"
+                                            "item": "elkaar op de hoogte houden van plaats, route of gebruikte functie (via sms of app)."
                                         },
                                         {
-                                            "item": "nuchter;"
+                                            "item": "nuchter."
                                         },
                                         {
-                                            "item": "minstens één iemand meerderjarig;"
+                                            "item": "minstens één iemand meerderjarig."
                                         },
                                         {
                                             "item": "volgens de wegcode. Op op- en afritten is het verboden te liften."
@@ -1012,7 +1012,7 @@ export class DataService {
                                     ]
                                 },
                                 {
-                                    "title": "Voor groepen van meer dan 50 fietsers geldt een aparte wetgeving. Fiets zoveel mogelijk in kleinere groepen. Wetgeving op www.veiligopstap.be"
+                                    "title": "Voor groepen van meer dan 50 fietsers geldt een aparte wetgeving. Fiets zoveel mogelijk in kleinere groepen. Wetgeving op <a href='www.veiligopstap.be'>www.veiligopstap.be</a>"
                                 }
 
                             ]
@@ -1349,7 +1349,7 @@ export class DataService {
                                     "item": "Maak met je groep afspraken voor leiding en leden over alcoholgebruik voor, tijdens en na de activiteiten. Onderstaande regels zijn een minimum."
                                 },
                                 {
-                                    "item": "Tot en met jonggidsen/jongverkenners/scheepsmakkers mogen leden geen alcohol drinken. Ook gidsen en (zee) verkenners jonger dan 16 jaar mogen nooit alcohol nuttigen; jins/loodsen jonger dan 18 jaar geen sterke drank."
+                                    "item": "Tot en met jonggidsen/jongverkenners/scheepsmakkers mogen leden geen alcohol drinken. Ook gidsen en (zee) verkenners jonger dan 16 jaar mogen nooit alcohol nuttigen. Jins/loodsen jonger dan 18 jaar geen sterke drank."
                                 },
                                 {
                                     "item": "Als je alcohol aanbiedt, voorzie dan ook altijd een volwaardig niet-alcoholisch alternatief.",
