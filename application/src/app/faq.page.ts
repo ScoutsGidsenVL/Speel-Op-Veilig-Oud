@@ -63,22 +63,4 @@ export class FaqPage implements OnInit {
     countKeysInFilter() {
         return Object.keys(this.filter).length;
     }
-    /*
-    chapterHasQuestionsForFilter(chapter) {
-        
-    }
-    questionHasAnsworForFilter(question) {
-        question.answers.forEach( answer => {
-        
-        });
-        if (this.filter.find(f => f == answer.group)){
-            return true;	                return true;
-            }
-        
-        
-        if (this.filter.find()){
-        
-        }
-        if (question.answers[group])
-    }*/
 }
