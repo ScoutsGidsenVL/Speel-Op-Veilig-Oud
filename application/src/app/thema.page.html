@@ -44,8 +44,8 @@
     <section class="more-info">
         <h2>{{ chapter.moreInfo.title }}</h2>
         <ul>
+            <li class="icon-speel-op-veilig-{{ chapter.url }} vraag-en-antwoord">Bekijk ook zeker onze vraag en antwoorden over {{ chapter.title }}! <a href="/vragen-en-antwoorden?theme={{chapter.url}}">Vragen en antwoorden</a></li>
             <li *ngFor="let item of chapter.moreInfo.list" >
-                <div></div>
                 <div>
                     <div class="icon-speel-op-veilig-{{ chapter.url }} meer-info">
                         {{item.title}}: 

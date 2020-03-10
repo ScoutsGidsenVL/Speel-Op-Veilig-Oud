@@ -33,6 +33,13 @@ export class FaqPage implements OnInit {
   ngOnInit() {
       this.questions = this.dataService.getAllQuestions();
       this.filter = this.originalFilter;
+      var url = new URL(window.location.href);
+      var urlTheme = url.searchParams.get("theme");
+      if(urlTheme){
+        this.questions = new Array();
+        this.questions.push( this.dataService.getQuestionsByTheme(urlTheme));
+      }
+
   }
     
     filterGroups($event){

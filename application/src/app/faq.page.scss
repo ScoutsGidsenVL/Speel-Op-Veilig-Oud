@@ -6,6 +6,11 @@ h1 {
     font-weight: normal;
     text-transform: uppercase;
     clear: both;
+
+    a{
+        color: var(--ion-color-dark);
+        text-decoration: none;
+    }
 }
 h2 {
     color: var(--ion-color-primary);
@@ -55,7 +60,9 @@ ion-card-title {
         }
     }  
 }
-
+section{
+    padding-bottom: 40px;
+}
 #filter {
     ion-select {
         background-color: #748d26;

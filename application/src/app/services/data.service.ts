@@ -1927,10 +1927,14 @@ export class DataService {
     for (let chapter of this.chapters) {
         for (let subChapter of chapter.subchapters) {
             if (subChapter.questions != undefined) {
+                subChapter.questions["url"] = chapter.url
                 questions.push(subChapter.questions);
             }
         }
     }
     return questions;
+  }
+  getQuestionsByTheme(themeUrl){
+    return this.getAllQuestions().find(question => question.url == themeUrl);
   }
 }
