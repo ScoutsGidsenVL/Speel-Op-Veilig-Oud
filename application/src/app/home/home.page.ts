@@ -29,6 +29,10 @@ export class HomePage {
           title: 'Wegwijs',
           url: '/wegwijs',
         },
+        {
+          title: 'Colofon',
+          url: '/colofon',
+        },
       ];
 
     public chapters;    

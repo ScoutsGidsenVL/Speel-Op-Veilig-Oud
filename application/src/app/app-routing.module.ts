@@ -11,6 +11,7 @@ const routes: Routes = [
   { path: 'thema/:title', loadChildren: './thema.module#ThemaPageModule' },
   { path: 'intro', loadChildren: './intro.module#IntroPageModule' },
   { path: 'vragen-en-antwoorden', loadChildren: './faq.module#FaqPageModule' },
+  { path: 'colofon', loadChildren: './colofon/colofon.module#ColofonPageModule' },
 ];
 
 @NgModule({
