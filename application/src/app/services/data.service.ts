@@ -150,7 +150,7 @@ export class DataService {
                                        "group": "kabouters-welpen",
                                         "answer": "Neen."
                                     },{
-                                       "group": "jonggidsen-verkenners-scheepsmakkers",
+                                       "group": "jonggidsen-jongverkenners-scheepsmakkers",
                                         "answer": "Ja, de leiding zorgt ervoor dat het in gecontroleerde omstandigheden gebeurt."
                                     },{
                                        "group": "gidsen-verkenners",
@@ -172,7 +172,7 @@ export class DataService {
                                        "group": "kabouters-welpen",
                                         "answer": "Neen. Kabouters en welpen mogen begeleid door leiding wel een woudloperskeuken doen."
                                     },{
-                                       "group": "jonggidsen-verkenners-scheepsmakkers",
+                                       "group": "jonggidsen-jongverkenners-scheepsmakkers",
                                         "answer": "Ja, maar begeleid door leiding of foeriers."
                                     },{
                                        "group": "gidsen-verkenners",
@@ -586,7 +586,7 @@ export class DataService {
                                        "group": "kabouters-welpen",
                                         "answer": "Neen"
                                     },{
-                                       "group": "jonggidsen-verkenners-scheepsmakkers",
+                                       "group": "jonggidsen-jongverkenners-scheepsmakkers",
                                         "answer": "Ja, als ze op de hoogte zijn van de basisregels over veiligheid en als de leiding de activiteit begeleidt en zorgt voor een veilige situatie."
                                     },{
                                        "group": "gidsen-verkenners",
@@ -849,7 +849,7 @@ export class DataService {
                                        "group": "kabouters-welpen",
                                         "answer": "Neen"
                                     },{
-                                       "group": "jonggidsen-verkenners-scheepsmakkers",
+                                       "group": "jonggidsen-jongverkenners-scheepsmakkers",
                                         "answer": "Ja, als er voldoende controle en de route veilig en verkend is. Leiding en leden kunnen elkaar bereiken."
                                     },{
                                        "group": "gidsen-verkenners",
@@ -872,7 +872,7 @@ export class DataService {
                                        "group": "kabouters-welpen",
                                         "answer": "Neen"
                                     },{
-                                       "group": "jonggidsen-verkenners-scheepsmakkers",
+                                       "group": "jonggidsen-jongverkenners-scheepsmakkers",
                                         "answer": "Ja, tot 22 uur. Als er voldoende controle is en leiding en leden elkaar kunnen bereiken. Voorzie fluohesjes. Tijdens weekends zijn avonddroppingen langs verharde openbare wegen verboden."
                                     },{
                                        "group": "gidsen-verkenners",
@@ -905,7 +905,7 @@ export class DataService {
                                        "answer": "Neen."
                                     },
                                     {
-                                        "group": "jonggidsen-verkenners-scheepsmakkers",
+                                        "group": "jonggidsen-jongverkenners-scheepsmakkers",
                                         "answer": "Ja, tweedaagse mag als het voorbereid wordt zoals een dropping."
                                     },
                                     {
@@ -931,7 +931,7 @@ export class DataService {
                                        "answer": "Neen."
                                     },
                                     {
-                                        "group": "jonggidsen-verkenners-scheepsmakkers",
+                                        "group": "jonggidsen-jongverkenners-scheepsmakkers",
                                         "answer": "Neen, de leiding zorgt voor een slaapplaats en slaapt ter plaatse."
                                     },
                                     {
@@ -957,7 +957,7 @@ export class DataService {
                                        "answer": "Neen."
                                     },
                                     {
-                                        "group": "jonggidsen-verkenners-scheepsmakkers",
+                                        "group": "jonggidsen-jongverkenners-scheepsmakkers",
                                         "answer": "Neen, leiding moet onmiddellijk bereikbaar zijn bij problemen en ’s nachts toezicht houden."
                                     },
                                     {
@@ -1096,7 +1096,7 @@ export class DataService {
                                        "answer": "Wij raden het af"
                                     },
                                     {
-                                        "group": "jonggidsen-verkenners-scheepsmakkers",
+                                        "group": "jonggidsen-jongverkenners-scheepsmakkers",
                                         "answer": "Ja."
                                     },
                                     {
@@ -1302,7 +1302,7 @@ export class DataService {
                                        "group": "kabouters-welpen",
                                         "answer": "Neen."
                                     },{
-                                       "group": "jonggidsen-verkenners-scheepsmakkers",
+                                       "group": "jonggidsen-jongverkenners-scheepsmakkers",
                                         "answer": "Enkel met duidelijke afspraken. Als er jongere leden aanwezig zijn, gedraagt iedereen zich volgens de regels die voor de jongste aanwezigen gelden."
                                     },{
                                        "group": "gidsen-verkenners",
@@ -1413,7 +1413,7 @@ export class DataService {
                                        "group": "kabouters-welpen",
                                         "answer": "Neen."
                                     },{
-                                       "group": "jonggidsen-verkenners-scheepsmakkers",
+                                       "group": "jonggidsen-jongverkenners-scheepsmakkers",
                                         "answer": "Neen"
                                     },{
                                        "group": "gidsen-verkenners",
@@ -1638,7 +1638,7 @@ export class DataService {
                                        "group": "kabouters-welpen",
                                         "answer": "Minimum 2 per tak."
                                     },{
-                                       "group": "jonggidsen-verkenners-scheepsmakkers",
+                                       "group": "jonggidsen-jongverkenners-scheepsmakkers",
                                         "answer": "1 leid(st)er per 6 leden. Minimum 2 per tak."
                                     },{
                                        "group": "gidsen-verkenners",
@@ -1668,7 +1668,7 @@ export class DataService {
                                        "group": "kabouters-welpen",
                                         "answer": "Maximum 10 dagen."
                                     },{
-                                       "group": "jonggidsen-verkenners-scheepsmakkers",
+                                       "group": "jonggidsen-jongverkenners-scheepsmakkers",
                                         "answer": "Maximum 12 dagen."
                                     },{
                                        "group": "gidsen-verkenners",
@@ -1690,7 +1690,7 @@ export class DataService {
                                        "group": "kabouters-welpen",
                                         "answer": "ja."
                                     },{
-                                       "group": "jonggidsen-verkenners-scheepsmakkers",
+                                       "group": "jonggidsen-jongverkenners-scheepsmakkers",
                                         "answer": "ja."
                                     },{
                                        "group": "gidsen-verkenners",
@@ -1712,7 +1712,7 @@ export class DataService {
                                        "group": "kabouters-welpen",
                                         "answer": "Neen."
                                     },{
-                                       "group": "jonggidsen-verkenners-scheepsmakkers",
+                                       "group": "jonggidsen-jongverkenners-scheepsmakkers",
                                         "answer": "Neen."
                                     },{
                                        "group": "gidsen-verkenners",
@@ -1735,7 +1735,7 @@ export class DataService {
                                        "group": "kabouters-welpen",
                                         "answer": "Neen. Uitzonderlijk kan dat in zeer extreme omstandigheden en in onderling overleg met degene die je straft. Informeer altijd zijn of haar ouders over de beslissing."
                                     },{
-                                       "group": "jonggidsen-verkenners-scheepsmakkers",
+                                       "group": "jonggidsen-jongverkenners-scheepsmakkers",
                                         "answer": "Neen. Uitzonderlijk kan dat in zeer extreme omstandigheden en in onderling overleg met degene die je straft. Informeer altijd zijn of haar ouders over de beslissing."
                                     },{
                                        "group": "gidsen-verkenners",
@@ -1758,7 +1758,7 @@ export class DataService {
                                        "group": "kabouters-welpen",
                                         "answer": "Ja, om aan het donker te wennen. Een spel spelen waardoor leden schrik krijgen, mag niet. De leiding is er altijd bij. Verplicht nooit iemand om hieraan deel te nemen."
                                     },{
-                                       "group": "jonggidsen-verkenners-scheepsmakkers",
+                                       "group": "jonggidsen-jongverkenners-scheepsmakkers",
                                         "answer": "Spannende en uitdagende activiteiten kunnen. Een spel spelen waardoor leden schrik krijgen, mag niet. Verplicht nooit iemand om hieraan deel te nemen."
                                     },{
                                        "group": "gidsen-verkenners",
@@ -1781,7 +1781,7 @@ export class DataService {
                                        "group": "kabouters-welpen",
                                         "answer": "Neen, een realistische schrikaanjagende activiteit is verboden."
                                     },{
-                                       "group": "jonggidsen-verkenners-scheepsmakkers",
+                                       "group": "jonggidsen-jongverkenners-scheepsmakkers",
                                         "answer": "Neen, een realistische schrikaanjagende activiteit is verboden."
                                     },{
                                        "group": "gidsen-verkenners",
@@ -1803,7 +1803,7 @@ export class DataService {
                                        "group": "kabouters-welpen",
                                         "answer": "Neen, maar leiding moet binnen gehoorsafstand liggen en de leden moeten zonder schrik bij de leiding kunnen geraken. Laat bijvoorbeeld het licht branden in de gang."
                                     },{
-                                       "group": "jonggidsen-verkenners-scheepsmakkers",
+                                       "group": "jonggidsen-jongverkenners-scheepsmakkers",
                                         "answer": "Neen. De leiding slaapt wel op hetzelfde terrein/lokaal."
                                     },{
                                        "group": "gidsen-verkenners",
@@ -1825,7 +1825,7 @@ export class DataService {
                                        "group": "kabouters-welpen",
                                         "answer": "Gemiddeld 8 tot 9 uur. De leiding bepaalt het slaapuur."
                                     },{
-                                       "group": "jonggidsen-verkenners-scheepsmakkers",
+                                       "group": "jonggidsen-jongverkenners-scheepsmakkers",
                                         "answer": "Gemiddeld 8 tot 9 uur. De leiding bepaalt het slaapuur."
                                     },{
                                        "group": "gidsen-verkenners",

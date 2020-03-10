@@ -10,7 +10,7 @@ import { DataService } from './services/data.service'
 export class FaqPage implements OnInit {
   private originalFilter = {"kapoenen-zeehondjes": "Kapoenen en zeehondjes",
         "kabouters-welpen": "Kabouters en (zee)welpen",
-        "jonggidsen-verkenners-scheepsmakkers": "Jonggidsen, verkenners en scheepsmakkers",
+        "jonggidsen-jongverkenners-scheepsmakkers": "Jonggidsen, jongverkenners en scheepsmakkers",
         "gidsen-verkenners": "Gidsen en (zee)verkenners", 
         "jins-loodsen":"Jins en loodsen",
         "open-kamp": "Open kamp",
@@ -19,7 +19,7 @@ export class FaqPage implements OnInit {
   private filterArr = new Array(
         "kapoenen-zeehondjes",
         "kabouters-welpen",
-        "jonggidsen-verkenners-scheepsmakkers",
+        "jonggidsen-jongverkenners-scheepsmakkers",
         "gidsen-verkenners", 
         "jins-loodsen",
         "open-kamp",
