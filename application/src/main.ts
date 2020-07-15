@@ -10,3 +10,8 @@ if (environment.production) {
 
 platformBrowserDynamic().bootstrapModule(AppModule)
   .catch(err => console.log(err));
+
+
+document.addEventListener('backbutton', function (evt) {
+  window.history.back();
+}, false);

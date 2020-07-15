@@ -17,4 +17,4 @@ node_modules/.bin/ionic cordova build --verbose --release android
 
 jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore /mnt/s/03.\ Ondersteuning/Informatica/Staf-projecten/Speel\ op\ veilig/Google\ Play/speel-op-veilig-release-key.keystore platforms/android/app/build/outputs/apk/release/app-release-unsigned.apk speelopveiligkey
 
-$ANDROID_HOME/build-tools/*/zipalign -v 4 platforms/android/app/build/outputs/apk/release/app-release-unsigned.apk SpeelOpVeilig.1.1.0.apk
+$ANDROID_HOME/build-tools/*/zipalign -v 4 platforms/android/app/build/outputs/apk/release/app-release-unsigned.apk SpeelOpVeilig.1.1.1.apk
