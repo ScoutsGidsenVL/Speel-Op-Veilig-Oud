@@ -6,7 +6,7 @@ import { Injectable } from '@angular/core';
 export class DataService {
     private chapters;
 
-  constructor() { 
+  constructor() {
     this.chapters = [
         {
             "title": "Vuur",
@@ -25,7 +25,7 @@ export class DataService {
                                 {
                                     "item": "In Vlaanderen moet je afspraken maken met de eigenaar van de kampgrond. In Wallonië heb je toestemming nodig van de boseigenaar."
                                 },
-                                
+
                                 {
                                     "item": "Wie een <b>brand veroorzaakt door onvoldoende voorzorgsmaatregelen</b> te nemen, <b>pleegt</b> een <b>strafbaar</b> feit. Het gebruik van brandversnellers is bijvoorbeeld strafbaar. Je mag ook geen vuur maken op of naast de openbare weg. De rook kan het verkeer hinderen of onveilig maken door het zicht te belemmeren."
                                 },
@@ -107,30 +107,30 @@ export class DataService {
                                 {
                                     "item": "Maak duidelijke afspraken over wie kookt en stookt. Waar staat het water? Waar ligt het blusdeken?",
                                     "why" : "Bij brand gaat vaak kostbare tijd verloren door paniek en onduidelijkheid."
-                                }, 
+                                },
                                 {
                                     "item": "Draag dicht schoeisel als je met vuur bezig bent en voorzie voldoende ovenwanten om iets van het vuur te halen.",
                                     "why": "Zo voorkom je brandwonden."
-                                }, 
+                                },
                                 {
                                     "item": "Let op voor gensters.",
                                     "why": "Die kunnen gaten in kledij branden en brandwonden veroorzaken."
-                                }, 
+                                },
                                 {
                                     "item": "Bouw tafelvuren zo dat sjorringen niet kunnen doorbranden.",
                                     "why": "Zo voorkom je dat het vuur, met potten en pannen en al omkantelt."
-                                }, 
+                                },
                                 {
                                     "item": "Vlam in de pan? Blus het door er een vochtige (geen natte) doek over te leggen.",
                                     "why": "Zo krijgt het vuur geen zuurstof meer. Gooi nooit water op brandend vet! Dat doet het uiteenspatten en veroorzaakt een steekvlam."
-                                }, 
+                                },
                                 {
                                     "item": "Een vuur is pas uitgedoofd als je de resten met de blote hand kan aanraken.",
                                     "why": "Binnenin een tak kan nog vuur smeulen dat je niet kan zien, enkel voelen."
-                                }, 
+                                },
                                 {
                                     "item": "Vermijd bij bliksem vlaktes en alles dat boven de omgeving uitsteekt (torens, masten, bomen, hoogtes, tenten). Ga zo snel mogelijk uit het water. Schuil in gebouwen of auto’s. Niet mogelijk? Ga gehurkt zitten en maak je zo klein mogelijk. ",
-                                    "why": "Bliksem zoekt het hoogste punt. Ook op water ben je als zwemmer het hoogste punt en loop je gevaar. Boten zijn meestal voorzien van een bliksemafleider"
+                                    "why": "Bliksem zoekt het hoogste punt."
                                 }
                         ]
                 }
@@ -185,7 +185,7 @@ export class DataService {
                             }
                         ]
                     }
-                    
+
                 }
             ],
             "moreInfo": {
@@ -225,7 +225,7 @@ export class DataService {
                                 {
                                     "item": "<b>In Vlaanderen is het verboden om te zwemmen in bevaarbare waterwegen.</b> Zwemmen in beken en sloten wordt ten zeerste afgeraden omdat de veiligheid niet gegarandeerd kan worden."
                                 },
-                                { 
+                                {
                                     "item": "<b>In Vlaanderen mag je met een zelfgebouwd vlot varen op de 'onbevaarbare waterlopen'</b>: beekjes en riviertjes waarop geen scheepvaart mogelijk is."
                                 },
                                 {
@@ -260,7 +260,7 @@ export class DataService {
                             "list": [
                                 {
                                     "item" : "Spring nooit zomaar in onbekend water.",
-                                    "why" : "Je kan niet inschatten wat zich onder het wateroppervlakte bevindt, zowel qua stroming, temperatuur als eventueel afval."
+                                    "why" : "Je kan niet inschatten wat zich onder het wateroppervlakte bevindt."
                                 },
                                 {
                                     "item" : "Tel de leden regelmatig."
@@ -391,7 +391,7 @@ export class DataService {
                                 },
                                 {
                                     "item": "Alle deathrides (meer dan 12° hellingsgraad), ook die onder begeleiding van specialisten, zijn verboden. Check dat dus als je een touwenparcours boekt.",
-                                    "why": "Deathrides zijn niet verzekerd, het risico op zwaar letsel is te groot."
+                                    "why": "Deathrides zijn niet verzekerd, het is te gevaarlijk."
                                 }
                         ]
                     }, {
@@ -404,7 +404,7 @@ export class DataService {
                                 },
                                 {
                                     "item": "Hou altijd toezicht op spontaan klimwerk, bijvoorbeeld in bomen. Zoek samen een gezonde klimboom en maak goede afspraken.",
-                                    "why": "Door er op voorhand bij stil te staan, beseffen kinderen dat ze zelf terug naar beneden moeten klimmen en geef je hen het vertrouwen dat ze zelf mee risico’s kunnen inschatten."
+                                    "why": "Door er op voorhand bij stil te staan, beseffen kinderen dat ze zelf terug naar beneden moeten klimmen."
                                 },
                                 {
                                     "item": "Twijfel je aan de kwaliteit van het materiaal of de deskundigheid van de begeleiding van een gespecialiseerde activiteit? Neem dan geen risico en stop de activiteit.",
@@ -430,7 +430,7 @@ export class DataService {
                             ]
                         }
                     ]
-                }   
+                }
             ],
             "moreInfo": {
                 "title": "Meer weten over hoogte?",
@@ -467,7 +467,7 @@ export class DataService {
                         "links": [
                             {
                                 "title": "www.scoutsengidsenvlaanderen.be/grote-sjorconstructies",
-                                "url": "http:\\www.scoutsengidsenvlaanderen.be/grote-sjorconstructies"
+                                "url": "https:\\www.scoutsengidsenvlaanderen.be/grote-sjorconstructies"
                             }
                         ]
                     }
@@ -495,13 +495,13 @@ export class DataService {
                             {
                                 "item" : "Voor speeltuigen, trampolines, schommels, klimrekken, springkastelen, kabelbanen of glijbanen bestaan strenge veiligheidsnormen. Zowel als ze vast als tijdelijk op je terrein staan."
                             }
-                        ] 
+                        ]
                     }, {
                         "title": "Regels Scouts en Gidsen Vlaanderen over materiaal",
                         "type": "regel",
                         "list": [
                             {
-                                "item" : "Vanaf jonggidsen/jongverkenners/scheepsmakkers mogen leden bijlen, zakmessen en zagen gebruiken. Bij jonggidsen/jongverkenners/scheepsmakkers gebeurt dat altijd begeleid door leiding."   
+                                "item" : "Vanaf jonggidsen/jongverkenners/scheepsmakkers mogen leden bijlen, zakmessen en zagen gebruiken. Bij jonggidsen/jongverkenners/scheepsmakkers gebeurt dat altijd begeleid door leiding."
                             },
                             {
                                 "item" : "Leden mogen enkel helpen bij verfraaiing en onderhoud aan het lokaal. Niet bij verbouwingen.",
@@ -517,7 +517,7 @@ export class DataService {
                         "type": "richtlijn",
                         "list": [
                             {
-                                "item": "Gebruik enkel kwalitatief materiaal dat je kan kopen bij gespecialiseerde handelaars.",
+                                "item": "Gebruik enkel kwalitatief materiaal dat je kan kopen bij <a href='https://www.hopper.be'>gespecialiseerde handelaars</a>.",
                                 "why": "Dat materiaal wordt getest en voldoet aan alle nodige veiligheidsnormen."
                             },
                             {
@@ -525,8 +525,7 @@ export class DataService {
                                 "why" : "Omdat je nooit kan inschatten hoeveel gas er al vrijkwam, is er risico op brandgevaar. Gebruik zeepsop om lekken op te sporen."
                             },
                             {
-                                "item": "Respecteer de vervaldata op gasleidingen.",
-                                "why" : ""
+                                "item": "Respecteer de vervaldata op gasleidingen."
                             },
                             {
                                 "item": "Hou bij het houthakken voldoende ruimte en draag stevige, dichte schoenen.",
@@ -608,7 +607,7 @@ export class DataService {
                         "title": "Over speelterreinen en wetgeving",
                         "links": [{
                                 "title": "scoutsengidsenvlaanderen.be/speeltoestellen",
-                                "url": "http:\\scoutsengidsenvlaanderen.be/speeltoestellen"
+                                "url": "http:\\www.scoutsengidsenvlaanderen.be/speeltoestellen"
                             }
                         ]
                     },
@@ -617,18 +616,18 @@ export class DataService {
                         "links": [
                             {
                                 "title": "scoutsengidsenvlaanderen.be/technieken-databank",
-                                "url": "http:\\scoutsengidsenvlaanderen.be/technieken-databank",
+                                "url": "http:\\www.scoutsengidsenvlaanderen.be/technieken-databank",
                                 "description": "en het Buitenboek, te koop in Hopper Winkel"
                             }
                         ]
                     }
                 ]
             }
-    },
+        },
         {
             "title": "Verkeer",
             "url": "verkeer",
-            "subchapters": [ 
+            "subchapters": [
                 {
                     "title": "Voetgangers",
                     "content": [
@@ -671,13 +670,13 @@ export class DataService {
                                         },
                                         {
                                             "item": "<b>Zijn er geen zebrapaden? Zorg dat je oversteekt op een veilige en zichtbare plaats </b>(niet in een bocht of op een helling)."
-                                        } 
+                                        }
                                     ]
                                 },
                                 {
                                     "title": "Altijd zichtbaar",
                                     "items": [
-                                        { 
+                                        {
                                             "item": "Volgens de wet moet je <b>altijd goed zichtbaar zijn in het verkeer.</b>"
                                         },
                                         {
@@ -722,7 +721,8 @@ export class DataService {
                                             "item": "nuchter."
                                         },
                                         {
-                                            "item": "minstens één iemand meerderjarig."
+                                            "item": "minstens één iemand meerderjarig.",
+                                            "why": "Minderjarigen zijn voor de wet handelingsonbekwaam. Dat wil zeggen dat wie zorg draagt voor minderjarigen 'toezichtsplicht' heeft. De wetgever kan er van uitgaan dat jongeren zich in een kwetsbare positie bevinden als ze liften en uit dankbaarheid niet durven of kunnen reageren op roekeloos of onverantwoord rijgedrag. Als leden zonder leiding liften, verlies je het overzicht op de groep en voldoe je dus niet aan je toezichtsplicht."
                                         },
                                         {
                                             "item": "volgens de wegcode. Op op- en afritten is het verboden te liften."
@@ -759,7 +759,7 @@ export class DataService {
                                 },
                                 {
                                     "item": "Stippel je reisweg op voorhand uit en kies zoveel mogelijk voor ‘trage wegen’.",
-                                    "why": "In een groep waar de vermoeidheid toeslaat, geraken trage en vermoeide stappers achterop."
+                                    "why": "Als je onderweg nog de weg moet zoeken, kan er chaos ontstaan."
                                 }
                             ]
                         }
@@ -809,7 +809,7 @@ export class DataService {
                             "title": "Richtlijnen Scouts en Gidsen Vlaanderen over dropping",
                             "type": "richtlijn",
                             "list": [
-                                    { 
+                                    {
                                         "item": "Zorg dat iedereen een fluohesje draagt. Controleer tijdens de dropping of ze het ook dragen.",
                                         "why": "Met een fluohesje aan ben je zichtbaar op 150 meter, anders maar op 20 meter."
                                     },
@@ -831,7 +831,7 @@ export class DataService {
                                         "why": "In grote groepen is het moeilijker om afspraken te maken en samen te blijven."
                                     }
                             ]
-                            
+
                         }
                     ],
                     "questions": {
@@ -859,7 +859,7 @@ export class DataService {
                                         "answer": "Ja, als er voldoende controle is en leiding en leden elkaar kunnen bereiken."
                                     }
                                 ]
-                                
+
                             },
                             {
                                 "question": "Mogen leden zonder leiding ‘s avonds op tocht?",
@@ -975,7 +975,7 @@ export class DataService {
                 },
                 {
                     "title": "Fietsers",
-                    "bschrijving": "De verplichte uitrusting van een fiets is: een bel (hoorbaar tot 20m), twee goed functionerende remmen en reflectoren. Als het donker is of bij verminderde zichtbaarheid moeten fiets of fietser vooraan een wit (knipper)licht en achteraan een rood (knipper)licht dragen.",
+                    "bschrijving": "De verplichte uitrusting van een fiets is: een bel (hoorbaar tot 20m), twee goed functionerende remmen en reflectoren. Als het donker is of bij verminderde zichtbaarheid moeten fiets of fietser vooraan een wit (knipper)licht en achteraan een rood (knipper)licht dragen. Fietsen met een fiets die niet in orde is, vergroot je kans op een ongeval.",
                     "content": [
                         {
                             "title": "Wet over fietsers",
@@ -1002,7 +1002,7 @@ export class DataService {
                                 {
                                     "title": "Fiets je in een groep van <b>vijftien tot vijftig fietsers?</b>",
                                     "items": [
-                                        
+
                                         {
                                             "item":"Neem bij voorkeur het fietspad."
                                         },
@@ -1021,7 +1021,7 @@ export class DataService {
                             "title": "Regels Scouts en Gidsen Vlaanderen over fietsers",
                             "type": "regel",
                             "list": [
-                                
+
                                         {
                                             "item" : "Fiets niet met kapoenen en zeehondjes op de openbare weg.",
                                             "why" : ". Pas vanaf 10 jaar kunnen kinderen reageren op risico’s, koers houden op de fiets, achterom kijken en richting aangeven zonder te slingeren. Vanaf twaalf jaar kunnen ze een ingewikkelde verkeerssituatie met meerdere auto’s beoordelen, en pas een jaar later kunnen ze langzaam fietsen zonder te slingeren. Het vermogen om je aandacht ergens bij te houden en informatie te verwerken, ontwikkelt zich nog verder tot de leeftijd van vijftien jaar."
@@ -1035,7 +1035,7 @@ export class DataService {
                             "title": "Richtlijnen Scouts en Gidsen Vlaanderen over fietsers",
                             "type": "richtlijn",
                             "list": [
-                                
+
                                 {
                                     "item": "Met kabouters en (zee)welpen kan je een fietsactiviteit op het scoutsterrein doen. We raden af om met hen op de openbare weg te fietsen",
                                     "why": "Pas vanaf 10 jaar kunnen kinderen reageren op risico’s, koers houden op de fiets, achterom kijken en richting aangeven zonder te slingeren. Vanaf twaalf jaar kunnen ze een ingewikkelde verkeerssituatie met meerdere auto’s beoordelen, en pas een jaar later kunnen ze langzaam fietsen zonder te slingeren. Het vermogen om je aandacht ergens bij te houden en informatie te verwerken, ontwikkelt zich nog verder tot de leeftijd van vijftien jaar."
@@ -1050,7 +1050,7 @@ export class DataService {
                                 },
                                 {
                                     "item": "Een fietser draagt het best een fietshelm.",
-                                    "why": "Dit verkleint de kans op hoofdletstels bij een (onge)val."
+                                    "why": "Dit vermindert de kans op hoofdletsels bij een val."
                                 },
                                 {
                                     "item": "Controleer voor een fietsactiviteit altijd of de fietsen van je leden wettelijk in orde zijn.",
@@ -1115,7 +1115,7 @@ export class DataService {
                 {
                     "title": "Auto's",
                     "content": [
-                        { 
+                        {
                             "title": "Wet over auto’s",
                             "type": "wet",
                             "list": [
@@ -1143,7 +1143,7 @@ export class DataService {
                             "title": "Suggesties over auto’s",
                             "type": "suggestie",
                             "list": [
-                                
+
                                 {
                                     "item": "Pauzeer tijdens een langere autorit minstens elke twee uur of wissel van chauffeur.",
                                     "why": "Vermoeidheid maakt je minder alert en aandachtig. Een vermoeide chauffeur is een gevaar op de weg."
@@ -1211,8 +1211,7 @@ export class DataService {
                             "type": "regel",
                             "list": [
                                 {
-                                    "item": "Maak met je groep afspraken voor leiding en leden over drugsgebruik. Onderstaande regels zijn een minimum.",
-                                    "why": "Maak duidelijk dat drugs geen plaats hebben binnen scouting. Zo creëer je geen verwarring over de grenzen."
+                                    "item": "Maak met je groep afspraken voor leiding en leden over drugsgebruik. Onderstaande regels zijn een minimum. Maak duidelijk dat drugs geen plaats hebben binnen scouting. Zo creëer je geen verwarring over de grenzen."
                                 },
                                 {
                                     "item": "Het gebruik en bezit van illegale middelen (ook cannabis) is verboden in of rond de infrastructuur van de groep. Het is verboden om onder invloed te zijn van die middelen tijdens activiteiten."
@@ -1257,8 +1256,7 @@ export class DataService {
                                     "item": "Maak met je groep afspraken voor leiding en leden over roken voor, tijdens en na de activiteiten. Onderstaande regel is een minimum."
                                 },
                                 {
-                                    "item": "Tot en met jonggidsen, jongverkenners en scheepsmakkers mogen leden niet roken. En er mag ook in hun buurt niet gerookt worden.",
-                                    "why": "Je hebt als leiding een voorbeeldfunctie. Bovendien is meeroken slecht voor de gezondheid."
+                                    "item": "Tot en met jonggidsen, jongverkenners en scheepsmakkers mogen leden niet roken. En er mag ook in hun buurt niet gerookt worden. Je hebt als leiding een voorbeeldfunctie. Bovendien is meeroken slecht voor de gezondheid."
                                 }
                             ]
                         },
@@ -1356,7 +1354,8 @@ export class DataService {
                                     "why": "Zo spoor je mensen aan om niet per se alcohol te drinken. En ook voor de BOB is het fijn om genoeg keuze te hebben."
                                 },
                                 {
-                                    "item": "Elke leid(st)er is op elk moment verantwoordelijk voor de leden die hem of haar zijn toevertrouwd. Dat geldt dus ook als de leden met iets anders bezig zijn of slapen."
+                                    "item": "Elke leid(st)er is op elk moment verantwoordelijk voor de leden die hem of haar zijn toevertrouwd. Dat geldt dus ook als de leden met iets anders bezig zijn of slapen.",
+                                    "why": "Toezichtsplicht"
                                 },
                                 {
                                     "item": "Tijdens activiteiten, op weekend of op kamp drinken altijd minimum twee leid(st)ers per tak geen druppel alcohol. Ook de rest van de leiding moet altijd handelingsbekwaam zijn, zelfs als de leden niet in de buurt zijn.",
@@ -1390,7 +1389,7 @@ export class DataService {
                             "list": [
                                 {
                                     "item": "Herbekijk jullie alcohol-, rook- en drugsbeleid jaarlijks. Onderteken het als leiding. Gebruik de BAR.",
-                                    "why": "Zo benadruk je het belang van zo’n beleid en de rol van alle leid(st)ers daarin. Door dit elk jaar opnieuw te bekrachtigen, zit dit vers in het geheugen van de leiding."
+                                    "why": "Leiding dit laten ondertekenen kan ervoor zorgen dat ze dit ernstiger nemen."
                                 },
                                 {
                                     "item": "Sociale druk kan er voor zorgen dat mensen tabak, alcohol of drugs gebruiken om erbij te horen. Grijp op tijd in."
@@ -1503,7 +1502,7 @@ export class DataService {
                             "type": "wet",
                             "list": [
                                 {
-                                    "item": "De wetgeving over het welzijn van kinderen en minderjarigen is uitgebreid en er zijn geen specifieke regels voor het jeugdwerk. Het Internationaal Verdrag Inzake de Rechten van het Kind is wel belangrijk voor ons. Zo heeft een kind bijvoorbeeld recht op anders zijn, een eigen mening, privacy en bescherming tegen geweld." 
+                                    "item": "De wetgeving over het welzijn van kinderen en minderjarigen is uitgebreid en er zijn geen specifieke regels voor het jeugdwerk. Het Internationaal Verdrag Inzake de Rechten van het Kind is wel belangrijk voor ons. Zo heeft een kind bijvoorbeeld recht op anders zijn, een eigen mening, privacy en bescherming tegen geweld."
                                 },
                                 {
                                     "item": "<b>Vanaf 16 jaar is seksueel contact wettelijk toegestaan.</b> Vanaf 14 jaar kan je toestemming geven tot seksueel contact als het leeftijdsverschil maximaal 5 jaar is en er geen machtsrelatie is. Seks met iemand jonger dan 14 jaar wordt beschouwd als verkrachting. Seksueel misbruik is verboden. Er is sprake van seksueel misbruik, als iemand “een beleving van seksualiteit opdringt aan een ander en iemand onder druk zet en gebruikt omwille van de eigen genotsbeleving”."
@@ -1521,11 +1520,12 @@ export class DataService {
                                     "item":  "Leden zijn minstens 6 jaar vóór 1 januari van het lopende scoutsjaar of zitten in het eerste leerjaar. Takleiding is minstens 18 jaar of bereikt die leeftijd in de loop van het scoutsjaar. Groepsleiding is minimum 21 jaar."
                                 },
                                 {
-                                    "item": "Op elk kamp is minstens één 21-jarige aanwezig."
+                                    "item": "Op elk kamp is minstens één 21-jarige aanwezig.",
+                                    "why": "Op een kamp is het goed dat iemand met ervaring en maturiteit aanwezig is. Je bent immers voor een langere periode weg."
                                 },
                                 {
                                     "item": "Realistische schrikaanjagende activiteiten, zoals een ontvoering, waarbij kinderen niet kunnen inschatten of iets waar is, zijn bij Scouts en Gidsen Vlaanderen verboden.",
-                                    "why": "Dit soort activiteiten kan traumatisch zijn, ook op lange termijn. Bovendien kunnen mensen heel impulsief reageren als ze denken dat ze in gevaar zijn."
+                                    "why": "Deze activiteiten kunnen traumatisch zijn. Je kent de voorgeschiedenis van je leden niet en kan niet inschatten welke zaken dit bij hen oproept."
                                 },
                                 {
                                     "item": "Machtsmisbruik, vernedering en pesterijen maken geen deel uit van onze werking. Heb oog voor signalen en grijp in bij meldingen die er op kunnen wijzen dat persoonlijke grenzen worden of werden overschreden.",
@@ -1535,7 +1535,7 @@ export class DataService {
                         },
                         {
                             "title": "Richtlijnen Scouts en Gidsen Vlaanderen over welzijn",
-                            "type": "ichtlijn",
+                            "type": "richtlijn",
                             "list": [
                                 {
                                     "item": "Zorg voor spannende en uitdagende activiteiten zonder dat leden werkelijk bang worden. Kinderen moeten neen kunnen zeggen en die keuze moet gerespecteerd worden, ook bij rituelen die al lang meegaan.",
@@ -1561,7 +1561,7 @@ export class DataService {
                                 },
                                 {
                                     "item": "Kies je voor een kampuur? Zorg er dan voor dat het niet meer dan 1 uur verschilt met het gewone uur.",
-                                    "why": "Anders geraakt het bioritme van je leden verstoord."
+                                    "why": "Omwille van het bioritme van leden."
                                 },
                                 {
                                     "item": "Leden mogen gemengd slapen, maar niets moet. Forceer niets. Vraag aan de leden wat ze ervan denken."
@@ -1599,18 +1599,20 @@ export class DataService {
                             "type": "suggestie",
                             "list": [
                                 {
-                                    "item": "Gebruik enkel leidingwater of geattesteerd drinkwater om te drinken en koken. Ontsmet bidons en waterslangen chemisch. Informeer je bij de apotheker."
+                                    "item": "Gebruik enkel leidingwater of geattesteerd drinkwater om te drinken en koken. Ontsmet bidons en waterslangen chemisch. Informeer je bij de apotheker.",
+                                    "why": "Gevaar op besmetting van het water"
                                 },
                                 {
                                     "item": "Zorg dat iedereen zijn handen wast met zeep voor het koken en eten.",
-                                    "why": "Met je handen verspreid je gemakkelijk virussen en bacteriën, omdat je er veel mee aanraakt (toilet, vuilnis(bak), rauw vlees)."
+                                    "why": "Bacteriën voorkomen"
                                 },
                                 {
                                     "item": "Bewaar bereide gerechten, zuivel, vlees en vis afgesloten en onder de 7°C. Leg het na aankoop zo snel mogelijk in de koelkast.",
-                                    "why": "Bacteriën en schimmels groeien tussen 7°C en 65°C"
+                                    "why": "Kans op rotting"
                                 },
                                 {
-                                    "item": "Bak vis en vlees, zeker kip en varkensvlees, door en door gaar."
+                                    "item": "Bak vis en vlees, zeker kip en varkensvlees, door en door gaar.",
+                                    "why": "Minder kans op bacteriën"
                                 },
                                 {
                                     "item": "Maak toiletten elke dag schoon. Voorzie genoeg toiletten, toiletpapier en wasplaatsen.",
@@ -1722,7 +1724,7 @@ export class DataService {
                                         "answer": "ja."
                                     }
                                 ]
-                                
+
                             },
                             {
                                 "question": "Mag je leden als straf naar huis sturen?",
@@ -1745,7 +1747,7 @@ export class DataService {
                                         "answer": "Neen. Uitzonderlijk kan dat in zeer extreme omstandigheden en in onderling overleg met degene die je straft. Informeer altijd zijn of haar ouders over de beslissing."
                                     }
                                 ]
-                                
+
                             },
                             {
                                 "question": "Mag je met je leden in het donker spelen?",
@@ -1768,7 +1770,7 @@ export class DataService {
                                         "answer": "Spannende en uitdagende activiteiten kunnen. Een spel spelen waardoor leden schrik krijgen, mag niet. Verplicht nooit iemand om hieraan deel te nemen."
                                     }
                                 ]
-                                
+
                             },
                             {
                                 "question": "Mag je met leden een realistische schrikaanjagende activiteit doen?",
@@ -1791,7 +1793,7 @@ export class DataService {
                                         "answer": "Neen, een realistische schrikaanjagende activiteit is verboden."
                                     }
                                 ]
-                                
+
                             },
                             {
                                 "question": "Moet leiding in dezelfde ruimte slapen als de leden?",
@@ -1813,7 +1815,7 @@ export class DataService {
                                         "answer": "Neen."
                                     }
                                 ]
-                                
+
                             },
                             {
                                 "question": "Hoeveel uren slaap hebben leden per nacht nodig?",
@@ -1835,11 +1837,11 @@ export class DataService {
                                         "answer": "Gemiddeld 8 uur. Leden en leiding spreken samen af hoe laat de leden gaan slapen."
                                     }
                                 ]
-                                
+
                             }
-                            
+
                         ]
-                    } 
+                    }
                 }
             ],
             "moreInfo": {
@@ -1912,8 +1914,8 @@ export class DataService {
             }
         }
     ];
-    
-    
+
+
   }
   getAllChapters() {
     return this.chapters;
@@ -1921,7 +1923,7 @@ export class DataService {
   getchapterBytitle(title) {
     return this.chapters.find(t => t.url == title);
   }
-  
+
   getAllQuestions() {
     let questions = new Array();
     for (let chapter of this.chapters) {
